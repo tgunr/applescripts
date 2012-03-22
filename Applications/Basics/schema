@@ -1,0 +1,2218 @@
+2008-06-11 11:58:05.687 mdimport[91158:10b] Schema: id(768) {
+    Attributes =     {
+        "com_DEVONtechnologies_think_DatabaseName" =         {
+            multivalued = 0;
+            name = "com_DEVONtechnologies_think_DatabaseName";
+            type = 7;
+        };
+        "com_DEVONtechnologies_think_RecordAliases" =         {
+            multivalued = 1;
+            name = "com_DEVONtechnologies_think_RecordAliases";
+            type = 7;
+        };
+        "com_DEVONtechnologies_think_RecordKind" =         {
+            multivalued = 0;
+            name = "com_DEVONtechnologies_think_RecordKind";
+            type = 7;
+        };
+        "com_Foo_YourAttrName" =         {
+            multivalued = 1;
+            name = "com_Foo_YourAttrName";
+            type = 7;
+        };
+        "com_andescotia_marten_file_project_att_applications" =         {
+            multivalued = 1;
+            name = "com_andescotia_marten_file_project_att_applications";
+            type = 7;
+        };
+        "com_andescotia_marten_file_project_att_libraries" =         {
+            multivalued = 1;
+            name = "com_andescotia_marten_file_project_att_libraries";
+            type = 7;
+        };
+        "com_andescotia_marten_file_project_att_resources" =         {
+            multivalued = 1;
+            name = "com_andescotia_marten_file_project_att_resources";
+            type = 7;
+        };
+        "com_andescotia_marten_file_project_att_sections" =         {
+            multivalued = 1;
+            name = "com_andescotia_marten_file_project_att_sections";
+            type = 7;
+        };
+        "com_andescotia_marten_file_section_att_class_attributes" =         {
+            multivalued = 1;
+            name = "com_andescotia_marten_file_section_att_class_attributes";
+            type = 7;
+        };
+        "com_andescotia_marten_file_section_att_class_methods" =         {
+            multivalued = 1;
+            name = "com_andescotia_marten_file_section_att_class_methods";
+            type = 7;
+        };
+        "com_andescotia_marten_file_section_att_classes" =         {
+            multivalued = 1;
+            name = "com_andescotia_marten_file_section_att_classes";
+            type = 7;
+        };
+        "com_andescotia_marten_file_section_att_persistents" =         {
+            multivalued = 1;
+            name = "com_andescotia_marten_file_section_att_persistents";
+            type = 7;
+        };
+        "com_andescotia_marten_file_section_att_titles" =         {
+            multivalued = 1;
+            name = "com_andescotia_marten_file_section_att_titles";
+            type = 7;
+        };
+        "com_andescotia_marten_file_section_att_universals" =         {
+            multivalued = 1;
+            name = "com_andescotia_marten_file_section_att_universals";
+            type = 7;
+        };
+        "com_app4mac_xtimeproject_xtp_enddate" =         {
+            multivalued = 0;
+            name = "com_app4mac_xtimeproject_xtp_enddate";
+            type = 23;
+        };
+        "com_app4mac_xtimeproject_xtp_projectcomments" =         {
+            multivalued = 0;
+            name = "com_app4mac_xtimeproject_xtp_projectcomments";
+            type = 7;
+        };
+        "com_app4mac_xtimeproject_xtp_projectcost" =         {
+            multivalued = 0;
+            name = "com_app4mac_xtimeproject_xtp_projectcost";
+            type = 7;
+        };
+        "com_app4mac_xtimeproject_xtp_projectname" =         {
+            multivalued = 0;
+            name = "com_app4mac_xtimeproject_xtp_projectname";
+            type = 7;
+        };
+        "com_app4mac_xtimeproject_xtp_projectresources" =         {
+            multivalued = 1;
+            name = "com_app4mac_xtimeproject_xtp_projectresources";
+            type = 7;
+        };
+        "com_app4mac_xtimeproject_xtp_protected" =         {
+            multivalued = 0;
+            name = "com_app4mac_xtimeproject_xtp_protected";
+            type = 21;
+        };
+        "com_app4mac_xtimeproject_xtp_startdate" =         {
+            multivalued = 0;
+            name = "com_app4mac_xtimeproject_xtp_startdate";
+            type = 23;
+        };
+        "com_apple_ats_font_invalid" =         {
+            multivalued = 0;
+            name = "com_apple_ats_font_invalid";
+            type = 21;
+        };
+        "com_apple_ats_name_family" =         {
+            multivalued = 1;
+            name = "com_apple_ats_name_family";
+            type = 7;
+        };
+        "com_apple_ats_name_fond" =         {
+            multivalued = 1;
+            name = "com_apple_ats_name_fond";
+            type = 7;
+        };
+        "com_apple_ats_name_full" =         {
+            multivalued = 1;
+            name = "com_apple_ats_name_full";
+            type = 7;
+        };
+        "com_apple_ats_name_postscript" =         {
+            multivalued = 1;
+            name = "com_apple_ats_name_postscript";
+            type = 7;
+        };
+        "com_apple_ats_name_style" =         {
+            multivalued = 1;
+            name = "com_apple_ats_name_style";
+            type = 7;
+        };
+        "com_apple_ats_names" =         {
+            multivalued = 1;
+            name = "com_apple_ats_names";
+            type = 7;
+        };
+        "com_apple_garageband_metadata_numberOfRITracks" =         {
+            multivalued = 0;
+            name = "com_apple_garageband_metadata_numberOfRITracks";
+            type = 22;
+        };
+        "com_apple_garageband_metadata_numberOfSITracks" =         {
+            multivalued = 0;
+            name = "com_apple_garageband_metadata_numberOfSITracks";
+            type = 22;
+        };
+        "com_apple_garageband_metadata_parentalAdvisory" =         {
+            multivalued = 0;
+            name = "com_apple_garageband_metadata_parentalAdvisory";
+            type = 7;
+        };
+        "com_apple_garageband_metadata_projectType" =         {
+            multivalued = 0;
+            name = "com_apple_garageband_metadata_projectType";
+            type = 7;
+        };
+        "com_apple_garageband_metadata_songVersionNumber" =         {
+            multivalued = 0;
+            name = "com_apple_garageband_metadata_songVersionNumber";
+            type = 22;
+        };
+        "com_apple_xcode_dsym_uuids" =         {
+            multivalued = 1;
+            name = "com_apple_xcode_dsym_uuids";
+            type = 7;
+        };
+        "com_aquaminds_NoteTaker_appversion" =         {
+            multivalued = 0;
+            name = "com_aquaminds_NoteTaker_appversion";
+            type = 7;
+        };
+        "com_hwit_iserialreader_indexfile_programname" =         {
+            multivalued = 0;
+            name = "com_hwit_iserialreader_indexfile_programname";
+            type = 7;
+        };
+        "com_iconfactory_pixadex_dateAdded" =         {
+            multivalued = 0;
+            name = "com_iconfactory_pixadex_dateAdded";
+            type = 23;
+        };
+        "com_likethought_opacity_factories" =         {
+            multivalued = 1;
+            name = "com_likethought_opacity_factories";
+            type = 7;
+        };
+        "com_likethought_opacity_filterNames" =         {
+            multivalued = 1;
+            name = "com_likethought_opacity_filterNames";
+            type = 7;
+        };
+        "com_likethought_opacity_frameNames" =         {
+            multivalued = 1;
+            name = "com_likethought_opacity_frameNames";
+            type = 7;
+        };
+        "com_likethought_opacity_resolutions" =         {
+            multivalued = 1;
+            name = "com_likethought_opacity_resolutions";
+            type = 22;
+        };
+        "com_likethought_opacity_texts" =         {
+            multivalued = 1;
+            name = "com_likethought_opacity_texts";
+            type = 7;
+        };
+        "com_likethought_opacity_variableNames" =         {
+            multivalued = 1;
+            name = "com_likethought_opacity_variableNames";
+            type = 7;
+        };
+        "com_likethought_opacity_vectorCount" =         {
+            name = "com_likethought_opacity_vectorCount";
+            type = 22;
+        };
+        "com_nakaharainformatics_iget_shortcut_comments" =         {
+            name = "com_nakaharainformatics_iget_shortcut_comments";
+            type = 7;
+        };
+        "com_nakaharainformatics_iget_shortcut_remotemacaddress" =         {
+            name = "com_nakaharainformatics_iget_shortcut_remotemacaddress";
+            type = 7;
+        };
+        "com_nakaharainformatics_iget_shortcut_remotepath" =         {
+            name = "com_nakaharainformatics_iget_shortcut_remotepath";
+            type = 7;
+        };
+        "com_nakaharainformatics_iget_shortcut_userdefinedname" =         {
+            name = "com_nakaharainformatics_iget_shortcut_userdefinedname";
+            type = 7;
+        };
+        "com_nakaharainformatics_iget_shortcut_username" =         {
+            name = "com_nakaharainformatics_iget_shortcut_username";
+            type = 7;
+        };
+        "com_omnigroup_OmniFocus_AssociatedContexts" =         {
+            multivalued = 1;
+            name = "com_omnigroup_OmniFocus_AssociatedContexts";
+            type = 7;
+        };
+        "com_omnigroup_OmniFocus_AttachmentCount" =         {
+            name = "com_omnigroup_OmniFocus_AttachmentCount";
+            type = 22;
+        };
+        "com_omnigroup_OmniFocus_ContainingFolderNames" =         {
+            multivalued = 1;
+            name = "com_omnigroup_OmniFocus_ContainingFolderNames";
+            type = 7;
+        };
+        "com_omnigroup_OmniFocus_ContainsSingletonActions" =         {
+            name = "com_omnigroup_OmniFocus_ContainsSingletonActions";
+            type = 21;
+        };
+        "com_omnigroup_OmniFocus_DirectFolderName" =         {
+            name = "com_omnigroup_OmniFocus_DirectFolderName";
+            type = 7;
+        };
+        "com_omnigroup_OmniFocus_LastReviewDate" =         {
+            name = "com_omnigroup_OmniFocus_LastReviewDate";
+            type = 23;
+        };
+        "com_omnigroup_OmniFocus_MinimumDueDate" =         {
+            name = "com_omnigroup_OmniFocus_MinimumDueDate";
+            type = 23;
+        };
+        "com_omnigroup_OmniFocus_NextReviewDate" =         {
+            name = "com_omnigroup_OmniFocus_NextReviewDate";
+            type = 23;
+        };
+        "com_omnigroup_OmniFocus_StartDate" =         {
+            name = "com_omnigroup_OmniFocus_StartDate";
+            type = 23;
+        };
+        "com_omnigroup_OmniFocus_Status" =         {
+            name = "com_omnigroup_OmniFocus_Status";
+            type = 7;
+        };
+        "com_omnigroup_OmniFocus_TaskCount" =         {
+            name = "com_omnigroup_OmniFocus_TaskCount";
+            type = 22;
+        };
+        "com_pulpmotion_project_hasLiveVideo" =         {
+            multivalued = 0;
+            name = "com_pulpmotion_project_hasLiveVideo";
+            type = 21;
+        };
+        "com_pulpmotion_project_hasSoundtrack" =         {
+            multivalued = 0;
+            name = "com_pulpmotion_project_hasSoundtrack";
+            type = 21;
+        };
+        "com_pulpmotion_project_imageCount" =         {
+            multivalued = 0;
+            name = "com_pulpmotion_project_imageCount";
+            type = 22;
+        };
+        "com_pulpmotion_project_mediaDates" =         {
+            multivalued = 1;
+            name = "com_pulpmotion_project_mediaDates";
+            type = 23;
+        };
+        "com_pulpmotion_project_mediaNotes" =         {
+            multivalued = 1;
+            name = "com_pulpmotion_project_mediaNotes";
+            type = 7;
+        };
+        "com_pulpmotion_project_mediaTitles" =         {
+            multivalued = 1;
+            name = "com_pulpmotion_project_mediaTitles";
+            type = 7;
+        };
+        "com_pulpmotion_project_standalone" =         {
+            multivalued = 0;
+            name = "com_pulpmotion_project_standalone";
+            type = 21;
+        };
+        "com_pulpmotion_project_story" =         {
+            multivalued = 0;
+            name = "com_pulpmotion_project_story";
+            type = 7;
+        };
+        "com_pulpmotion_project_themeId" =         {
+            multivalued = 0;
+            name = "com_pulpmotion_project_themeId";
+            type = 7;
+        };
+        "com_pulpmotion_project_videoCount" =         {
+            multivalued = 0;
+            name = "com_pulpmotion_project_videoCount";
+            type = 22;
+        };
+        kMDItemAcquisitionMake =         {
+            name = kMDItemAcquisitionMake;
+            type = 7;
+        };
+        kMDItemAcquisitionModel =         {
+            name = kMDItemAcquisitionModel;
+            type = 7;
+        };
+        kMDItemAlbum =         {
+            name = kMDItemAlbum;
+            type = 7;
+        };
+        kMDItemAlternateNames =         {
+            multivalued = 1;
+            name = kMDItemAlternateNames;
+            type = 7;
+        };
+        kMDItemAltitude =         {
+            name = kMDItemAltitude;
+            type = 22;
+        };
+        kMDItemAperture =         {
+            name = kMDItemAperture;
+            type = 22;
+        };
+        kMDItemAppleLoopDescriptors =         {
+            multivalued = 1;
+            name = kMDItemAppleLoopDescriptors;
+            type = 7;
+        };
+        kMDItemAppleLoopsKeyFilterType =         {
+            name = kMDItemAppleLoopsKeyFilterType;
+            type = 7;
+        };
+        kMDItemAppleLoopsLoopMode =         {
+            name = kMDItemAppleLoopsLoopMode;
+            type = 7;
+        };
+        kMDItemAppleLoopsRootKey =         {
+            name = kMDItemAppleLoopsRootKey;
+            type = 7;
+        };
+        kMDItemAttributeChangeDate =         {
+            name = kMDItemAttributeChangeDate;
+            nosearch = 1;
+            type = 23;
+        };
+        kMDItemAudiences =         {
+            multivalued = 1;
+            name = kMDItemAudiences;
+            type = 7;
+        };
+        kMDItemAudioBitRate =         {
+            name = kMDItemAudioBitRate;
+            type = 22;
+        };
+        kMDItemAudioChannelCount =         {
+            name = kMDItemAudioChannelCount;
+            type = 22;
+        };
+        kMDItemAudioEncodingApplication =         {
+            name = kMDItemAudioEncodingApplication;
+            type = 7;
+        };
+        kMDItemAudioSampleRate =         {
+            name = kMDItemAudioSampleRate;
+            type = 22;
+        };
+        kMDItemAudioTrackNumber =         {
+            name = kMDItemAudioTrackNumber;
+            type = 22;
+        };
+        kMDItemAuthorEmailAddresses =         {
+            multivalued = 1;
+            name = kMDItemAuthorEmailAddresses;
+            type = 7;
+        };
+        kMDItemAuthors =         {
+            multivalued = 1;
+            name = kMDItemAuthors;
+            type = 7;
+        };
+        kMDItemBitsPerSample =         {
+            name = kMDItemBitsPerSample;
+            type = 22;
+        };
+        kMDItemCFBundleIdentifier =         {
+            name = kMDItemCFBundleIdentifier;
+            nosearch = 1;
+            type = 7;
+        };
+        kMDItemCity =         {
+            name = kMDItemCity;
+            type = 7;
+        };
+        kMDItemCodecs =         {
+            multivalued = 1;
+            name = kMDItemCodecs;
+            type = 7;
+        };
+        kMDItemColorSpace =         {
+            name = kMDItemColorSpace;
+            type = 7;
+        };
+        kMDItemComment =         {
+            name = kMDItemComment;
+            type = 7;
+        };
+        kMDItemComposer =         {
+            name = kMDItemComposer;
+            type = 7;
+        };
+        kMDItemContactKeywords =         {
+            multivalued = 1;
+            name = kMDItemContactKeywords;
+            type = 7;
+        };
+        kMDItemContentCreationDate =         {
+            name = kMDItemContentCreationDate;
+            type = 23;
+        };
+        kMDItemContentModificationDate =         {
+            name = kMDItemContentModificationDate;
+            type = 23;
+        };
+        kMDItemContentType =         {
+            name = kMDItemContentType;
+            nosearch = 1;
+            type = 7;
+            uniqued = 1;
+        };
+        kMDItemContentTypeTree =         {
+            multivalued = 1;
+            name = kMDItemContentTypeTree;
+            nosearch = 1;
+            type = 7;
+            uniqued = 1;
+        };
+        kMDItemContributors =         {
+            multivalued = 1;
+            name = kMDItemContributors;
+            type = 7;
+        };
+        kMDItemCopyright =         {
+            name = kMDItemCopyright;
+            type = 7;
+        };
+        kMDItemCountry =         {
+            name = kMDItemCountry;
+            type = 7;
+        };
+        kMDItemCoverage =         {
+            name = kMDItemCoverage;
+            type = 7;
+        };
+        kMDItemCreator =         {
+            name = kMDItemCreator;
+            type = 7;
+        };
+        kMDItemDeliveryType =         {
+            name = kMDItemDeliveryType;
+            type = 7;
+        };
+        kMDItemDescription =         {
+            name = kMDItemDescription;
+            type = 7;
+        };
+        kMDItemDirector =         {
+            name = kMDItemDirector;
+            type = 7;
+        };
+        kMDItemDisplayName =         {
+            name = kMDItemDisplayName;
+            type = 7;
+        };
+        kMDItemDocumentLineage =         {
+            multivalued = 1;
+            name = kMDItemDocumentLineage;
+            nosearch = 1;
+            type = 7;
+        };
+        kMDItemDueDate =         {
+            name = kMDItemDueDate;
+            type = 23;
+        };
+        kMDItemDurationSeconds =         {
+            name = kMDItemDurationSeconds;
+            type = 22;
+        };
+        kMDItemEXIFGPSVersion =         {
+            name = kMDItemEXIFGPSVersion;
+            nosearch = 1;
+            type = 7;
+        };
+        kMDItemEXIFVersion =         {
+            name = kMDItemEXIFVersion;
+            type = 7;
+        };
+        kMDItemEditors =         {
+            multivalued = 1;
+            name = kMDItemEditors;
+            type = 7;
+        };
+        kMDItemEmailAddresses =         {
+            multivalued = 1;
+            name = kMDItemEmailAddresses;
+            type = 7;
+        };
+        kMDItemEncodingApplications =         {
+            multivalued = 1;
+            name = kMDItemEncodingApplications;
+            type = 7;
+        };
+        kMDItemExposureMode =         {
+            name = kMDItemExposureMode;
+            type = 22;
+        };
+        kMDItemExposureProgram =         {
+            name = kMDItemExposureProgram;
+            type = 7;
+        };
+        kMDItemExposureTimeSeconds =         {
+            name = kMDItemExposureTimeSeconds;
+            type = 22;
+        };
+        kMDItemFNumber =         {
+            name = kMDItemFNumber;
+            type = 22;
+        };
+        kMDItemFSContentChangeDate =         {
+            name = kMDItemFSContentChangeDate;
+            type = 23;
+        };
+        kMDItemFSCreationDate =         {
+            name = kMDItemFSCreationDate;
+            type = 23;
+        };
+        kMDItemFSExists =         {
+            name = kMDItemFSExists;
+            type = 21;
+        };
+        kMDItemFSHasCustomIcon =         {
+            name = kMDItemFSHasCustomIcon;
+            type = 21;
+        };
+        kMDItemFSInvisible =         {
+            name = kMDItemFSInvisible;
+            type = 21;
+        };
+        kMDItemFSIsExtensionHidden =         {
+            name = kMDItemFSIsExtensionHidden;
+            type = 21;
+        };
+        kMDItemFSIsReadable =         {
+            name = kMDItemFSIsReadable;
+            type = 21;
+        };
+        kMDItemFSIsStationery =         {
+            name = kMDItemFSIsStationery;
+            type = 21;
+        };
+        kMDItemFSIsWriteable =         {
+            name = kMDItemFSIsWriteable;
+            type = 21;
+        };
+        kMDItemFSLabel =         {
+            name = kMDItemFSLabel;
+            type = 22;
+        };
+        kMDItemFSName =         {
+            name = kMDItemFSName;
+            type = 7;
+        };
+        kMDItemFSNodeCount =         {
+            name = kMDItemFSNodeCount;
+            type = 22;
+        };
+        kMDItemFSOwnerGroupID =         {
+            name = kMDItemFSOwnerGroupID;
+            type = 22;
+        };
+        kMDItemFSOwnerUserID =         {
+            name = kMDItemFSOwnerUserID;
+            type = 22;
+        };
+        kMDItemFSSize =         {
+            name = kMDItemFSSize;
+            type = 22;
+        };
+        kMDItemFinderComment =         {
+            name = kMDItemFinderComment;
+            type = 7;
+        };
+        kMDItemFlashOnOff =         {
+            name = kMDItemFlashOnOff;
+            type = 21;
+        };
+        kMDItemFocalLength =         {
+            name = kMDItemFocalLength;
+            type = 22;
+        };
+        kMDItemFonts =         {
+            multivalued = 1;
+            name = kMDItemFonts;
+            type = 7;
+        };
+        kMDItemGenre =         {
+            name = kMDItemGenre;
+            type = 7;
+        };
+        kMDItemHasAlphaChannel =         {
+            name = kMDItemHasAlphaChannel;
+            type = 21;
+        };
+        kMDItemHeadline =         {
+            name = kMDItemHeadline;
+            type = 7;
+        };
+        kMDItemISOSpeed =         {
+            name = kMDItemISOSpeed;
+            type = 22;
+        };
+        kMDItemIdentifier =         {
+            name = kMDItemIdentifier;
+            type = 7;
+        };
+        kMDItemInformation =         {
+            name = kMDItemInformation;
+            type = 7;
+        };
+        kMDItemInstantMessageAddresses =         {
+            multivalued = 1;
+            name = kMDItemInstantMessageAddresses;
+            type = 7;
+        };
+        kMDItemInstructions =         {
+            name = kMDItemInstructions;
+            type = 7;
+        };
+        kMDItemIsGeneralMIDISequence =         {
+            name = kMDItemIsGeneralMIDISequence;
+            type = 21;
+        };
+        kMDItemIsScreenCapture =         {
+            name = kMDItemIsScreenCapture;
+            nosearch = 1;
+            type = 21;
+        };
+        kMDItemKeySignature =         {
+            name = kMDItemKeySignature;
+            type = 7;
+        };
+        kMDItemKeywords =         {
+            multivalued = 1;
+            name = kMDItemKeywords;
+            type = 7;
+        };
+        kMDItemKind =         {
+            name = kMDItemKind;
+            type = 7;
+            uniqued = 1;
+        };
+        kMDItemLanguages =         {
+            multivalued = 1;
+            name = kMDItemLanguages;
+            nosearch = 1;
+            type = 7;
+        };
+        kMDItemLastUsedDate =         {
+            name = kMDItemLastUsedDate;
+            type = 23;
+        };
+        kMDItemLatitude =         {
+            name = kMDItemLatitude;
+            type = 22;
+        };
+        kMDItemLayerNames =         {
+            multivalued = 1;
+            name = kMDItemLayerNames;
+            type = 7;
+        };
+        kMDItemLongitude =         {
+            name = kMDItemLongitude;
+            type = 22;
+        };
+        kMDItemLyricist =         {
+            name = kMDItemLyricist;
+            type = 7;
+        };
+        kMDItemMaxAperture =         {
+            name = kMDItemMaxAperture;
+            type = 22;
+        };
+        kMDItemMediaTypes =         {
+            multivalued = 1;
+            name = kMDItemMediaTypes;
+            type = 7;
+        };
+        kMDItemMeteringMode =         {
+            name = kMDItemMeteringMode;
+            type = 7;
+        };
+        kMDItemMusicalGenre =         {
+            name = kMDItemMusicalGenre;
+            type = 7;
+        };
+        kMDItemMusicalInstrumentCategory =         {
+            name = kMDItemMusicalInstrumentCategory;
+            type = 7;
+        };
+        kMDItemMusicalInstrumentName =         {
+            name = kMDItemMusicalInstrumentName;
+            type = 7;
+        };
+        kMDItemNumberOfPages =         {
+            name = kMDItemNumberOfPages;
+            type = 22;
+        };
+        kMDItemOrganizations =         {
+            multivalued = 1;
+            name = kMDItemOrganizations;
+            type = 7;
+        };
+        kMDItemOrientation =         {
+            name = kMDItemOrientation;
+            type = 22;
+        };
+        kMDItemOriginalFormat =         {
+            name = kMDItemOriginalFormat;
+            type = 7;
+        };
+        kMDItemOriginalSource =         {
+            name = kMDItemOriginalSource;
+            type = 7;
+        };
+        kMDItemPageHeight =         {
+            name = kMDItemPageHeight;
+            type = 22;
+        };
+        kMDItemPageWidth =         {
+            name = kMDItemPageWidth;
+            type = 22;
+        };
+        kMDItemPath =         {
+            name = kMDItemPath;
+            type = 7;
+        };
+        kMDItemPerformers =         {
+            multivalued = 1;
+            name = kMDItemPerformers;
+            type = 7;
+        };
+        kMDItemPhoneNumbers =         {
+            multivalued = 1;
+            name = kMDItemPhoneNumbers;
+            type = 7;
+        };
+        kMDItemPixelHeight =         {
+            name = kMDItemPixelHeight;
+            type = 22;
+        };
+        kMDItemPixelWidth =         {
+            name = kMDItemPixelWidth;
+            type = 22;
+        };
+        kMDItemProducer =         {
+            name = kMDItemProducer;
+            type = 7;
+        };
+        kMDItemProfileName =         {
+            name = kMDItemProfileName;
+            type = 7;
+        };
+        kMDItemProjects =         {
+            multivalued = 1;
+            name = kMDItemProjects;
+            type = 7;
+        };
+        kMDItemPublishers =         {
+            multivalued = 1;
+            name = kMDItemPublishers;
+            type = 7;
+        };
+        kMDItemRecipientEmailAddresses =         {
+            multivalued = 1;
+            name = kMDItemRecipientEmailAddresses;
+            type = 7;
+        };
+        kMDItemRecipients =         {
+            multivalued = 1;
+            name = kMDItemRecipients;
+            type = 7;
+        };
+        kMDItemRecordingDate =         {
+            name = kMDItemRecordingDate;
+            type = 23;
+        };
+        kMDItemRecordingYear =         {
+            name = kMDItemRecordingYear;
+            type = 22;
+        };
+        kMDItemRedEyeOnOff =         {
+            name = kMDItemRedEyeOnOff;
+            type = 21;
+        };
+        kMDItemResolutionHeightDPI =         {
+            name = kMDItemResolutionHeightDPI;
+            type = 22;
+        };
+        kMDItemResolutionWidthDPI =         {
+            name = kMDItemResolutionWidthDPI;
+            type = 22;
+        };
+        kMDItemRights =         {
+            name = kMDItemRights;
+            type = 7;
+        };
+        kMDItemScreenCaptureType =         {
+            name = kMDItemScreenCaptureType;
+            nosearch = 1;
+            type = 7;
+        };
+        kMDItemSecurityMethod =         {
+            name = kMDItemSecurityMethod;
+            type = 7;
+        };
+        kMDItemStarRating =         {
+            name = kMDItemStarRating;
+            type = 22;
+        };
+        kMDItemStateOrProvince =         {
+            name = kMDItemStateOrProvince;
+            type = 7;
+        };
+        kMDItemStreamable =         {
+            name = kMDItemStreamable;
+            type = 21;
+        };
+        kMDItemSubject =         {
+            name = kMDItemSubject;
+            type = 7;
+        };
+        kMDItemSupportFileType =         {
+            multivalued = 1;
+            name = kMDItemSupportFileType;
+            nosearch = 1;
+            type = 7;
+        };
+        kMDItemTempo =         {
+            name = kMDItemTempo;
+            type = 22;
+        };
+        kMDItemTextContent =         {
+            name = kMDItemTextContent;
+            type = 7;
+        };
+        kMDItemTheme =         {
+            name = kMDItemTheme;
+            type = 7;
+        };
+        kMDItemTimeSignature =         {
+            name = kMDItemTimeSignature;
+            type = 7;
+        };
+        kMDItemTitle =         {
+            name = kMDItemTitle;
+            type = 7;
+        };
+        kMDItemTotalBitRate =         {
+            name = kMDItemTotalBitRate;
+            type = 22;
+        };
+        kMDItemURL =         {
+            name = kMDItemURL;
+            type = 7;
+        };
+        kMDItemUsedDates =         {
+            multivalued = 1;
+            name = kMDItemUsedDates;
+            type = 23;
+        };
+        kMDItemVersion =         {
+            name = kMDItemVersion;
+            type = 7;
+        };
+        kMDItemVideoBitRate =         {
+            name = kMDItemVideoBitRate;
+            type = 22;
+        };
+        kMDItemWhereFroms =         {
+            multivalued = 1;
+            name = kMDItemWhereFroms;
+            type = 7;
+        };
+        kMDItemWhiteBalance =         {
+            name = kMDItemWhiteBalance;
+            type = 22;
+        };
+        "org_lisp_defclasses" =         {
+            multivalued = 1;
+            name = "org_lisp_defclasses";
+            type = 7;
+        };
+        "org_lisp_defgenerics" =         {
+            multivalued = 1;
+            name = "org_lisp_defgenerics";
+            type = 7;
+        };
+        "org_lisp_definitions" =         {
+            multivalued = 1;
+            name = "org_lisp_definitions";
+            type = 7;
+        };
+        "org_lisp_defmacros" =         {
+            multivalued = 1;
+            name = "org_lisp_defmacros";
+            type = 7;
+        };
+        "org_lisp_defmethods" =         {
+            multivalued = 1;
+            name = "org_lisp_defmethods";
+            type = 7;
+        };
+        "org_lisp_defstructs" =         {
+            multivalued = 1;
+            name = "org_lisp_defstructs";
+            type = 7;
+        };
+        "org_lisp_defuns" =         {
+            multivalued = 1;
+            name = "org_lisp_defuns";
+            type = 7;
+        };
+        "org_lisp_defvars" =         {
+            multivalued = 1;
+            name = "org_lisp_defvars";
+            type = 7;
+        };
+        "org_spotmeta_mc_Work__category" =         {
+            multivalued = 1;
+            name = "org_spotmeta_mc_Work__category";
+            type = 7;
+        };
+        "org_spotmeta_sd_Due__date" =         {
+            multivalued = 0;
+            name = "org_spotmeta_sd_Due__date";
+            type = 23;
+        };
+        "org_spotmeta_st_Example" =         {
+            multivalued = 0;
+            name = "org_spotmeta_st_Example";
+            type = 7;
+        };
+        "org_spotmeta_st_Quartz__Compositions" =         {
+            multivalued = 0;
+            name = "org_spotmeta_st_Quartz__Compositions";
+            type = 7;
+        };
+    };
+    Types =     {
+        "com.adobe.pdf" =         {
+            allattrs =             (
+                kMDItemVersion,
+                kMDItemTitle,
+                kMDItemAuthors,
+                kMDItemDescription,
+                kMDItemCreator,
+                kMDItemEncodingApplications,
+                kMDItemKeywords,
+                kMDItemNumberOfPages,
+                kMDItemPageWidth,
+                kMDItemPageHeight,
+                kMDItemSecurityMethod
+            );
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemAuthors,
+                kMDItemDescription,
+                kMDItemVersion,
+                kMDItemNumberOfPages,
+                kMDItemPageWidth,
+                kMDItemPageHeight,
+                kMDItemSecurityMethod,
+                kMDItemCreator,
+                kMDItemEncodingApplications
+            );
+            name = "com.adobe.pdf";
+            readonlyattrs =             (
+                kMDItemVersion,
+                kMDItemCreator,
+                kMDItemEncodingApplications,
+                kMDItemNumberOfPages,
+                kMDItemPageWidth,
+                kMDItemPageHeight,
+                kMDItemSecurityMethod
+            );
+            relatedattrs =             (
+                kMDItemAuthors
+            );
+        };
+        "com.andescotia.marten.file.project" =         {
+            allattrs =             (
+                "com_andescotia_marten_file_project_att_libraries",
+                "com_andescotia_marten_file_project_att_sections",
+                "com_andescotia_marten_file_project_att_resources",
+                "com_andescotia_marten_file_project_att_applications"
+            );
+            displayattrs =             (
+                "com_andescotia_marten_file_project_att_libraries",
+                "com_andescotia_marten_file_project_att_sections",
+                "com_andescotia_marten_file_project_att_resources",
+                "com_andescotia_marten_file_project_att_applications"
+            );
+            name = "com.andescotia.marten.file.project";
+        };
+        "com.andescotia.marten.file.section" =         {
+            allattrs =             (
+                "com_andescotia_marten_file_section_att_titles",
+                "com_andescotia_marten_file_section_att_persistents",
+                "com_andescotia_marten_file_section_att_universals",
+                "com_andescotia_marten_file_section_att_classes",
+                "com_andescotia_marten_file_section_att_class_methods",
+                "com_andescotia_marten_file_section_att_class_attributes"
+            );
+            displayattrs =             (
+                "com_andescotia_marten_file_section_att_titles",
+                "com_andescotia_marten_file_section_att_persistents",
+                "com_andescotia_marten_file_section_att_universals",
+                "com_andescotia_marten_file_section_att_classes",
+                "com_andescotia_marten_file_section_att_class_methods",
+                "com_andescotia_marten_file_section_att_class_attributes"
+            );
+            name = "com.andescotia.marten.file.section";
+        };
+        "com.app4mac.xtimeproject.xtp" =         {
+            allattrs =             (
+                "com_app4mac_xtimeproject_xtp_projectname",
+                "com_app4mac_xtimeproject_xtp_protected",
+                "com_app4mac_xtimeproject_xtp_startdate",
+                "com_app4mac_xtimeproject_xtp_enddate",
+                "com_app4mac_xtimeproject_xtp_projectcomments",
+                "com_app4mac_xtimeproject_xtp_projectresources",
+                "com_app4mac_xtimeproject_xtp_projectcost"
+            );
+            displayattrs =             (
+                "com_app4mac_xtimeproject_xtp_projectname",
+                "com_app4mac_xtimeproject_xtp_protected",
+                "com_app4mac_xtimeproject_xtp_startdate",
+                "com_app4mac_xtimeproject_xtp_enddate",
+                "com_app4mac_xtimeproject_xtp_projectcomments",
+                "com_app4mac_xtimeproject_xtp_projectresources",
+                "com_app4mac_xtimeproject_xtp_projectcost"
+            );
+            name = "com.app4mac.xtimeproject.xtp";
+        };
+        "com.apple.addressbook.group" =         {
+            allattrs =             (
+                kMDItemTitle
+            );
+            displayattrs =             (
+                kMDItemTitle
+            );
+            name = "com.apple.addressbook.group";
+        };
+        "com.apple.addressbook.person" =         {
+            allattrs =             (
+                kMDItemCity,
+                kMDItemCountry,
+                kMDItemEmailAddresses,
+                kMDItemInstantMessageAddresses,
+                kMDItemPhoneNumbers,
+                kMDItemStateOrProvince,
+                kMDItemTitle
+            );
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemPhoneNumbers,
+                kMDItemEmailAddresses,
+                kMDItemInstantMessageAddresses
+            );
+            name = "com.apple.addressbook.person";
+            relatedattrs =             (
+                kMDItemPhoneNumbers,
+                kMDItemEmailAddresses
+            );
+        };
+        "com.apple.application" =         {
+            allattrs =             (
+                kMDItemCopyright,
+                kMDItemVersion
+            );
+            name = "com.apple.application";
+            previewattrs =             (
+                kMDItemLastUsedDate
+            );
+            readonlyattrs =             (
+                kMDItemCopyright,
+                kMDItemVersion
+            );
+        };
+        "com.apple.bom-compressed-cpio" =         {
+            allattrs =             (
+                kMDItemTextContent
+            );
+            displayattrs =             (
+                kMDItemTextContent
+            );
+            name = "com.apple.bom-compressed-cpio";
+        };
+        "com.apple.bundle" =         {
+            allattrs =             (
+                kMDItemCFBundleIdentifier
+            );
+            name = "com.apple.bundle";
+            readonlyattrs =             (
+                kMDItemCFBundleIdentifier
+            );
+        };
+        "com.apple.garageband.project" =         {
+            allattrs =             (
+                "com_apple_garageband_metadata_projectType",
+                "com_apple_garageband_metadata_parentalAdvisory",
+                "com_apple_garageband_metadata_songVersionNumber",
+                "com_apple_garageband_metadata_numberOfSITracks",
+                "com_apple_garageband_metadata_numberOfRITracks"
+            );
+            displayattrs =             (
+                "com_apple_garageband_metadata_projectType",
+                "com_apple_garageband_metadata_parentalAdvisory",
+                kMDItemDurationSeconds,
+                kMDItemTempo,
+                kMDItemKeySignature,
+                kMDItemTimeSignature,
+                "com_apple_garageband_metadata_songVersionNumber"
+            );
+            name = "com.apple.garageband.project";
+        };
+        "com.apple.garageband.template.magic" =         {
+            allattrs =             (
+                "com_apple_garageband_metadata_projectType",
+                "com_apple_garageband_metadata_parentalAdvisory",
+                "com_apple_garageband_metadata_songVersionNumber",
+                "com_apple_garageband_metadata_numberOfSITracks",
+                "com_apple_garageband_metadata_numberOfRITracks"
+            );
+            displayattrs =             (
+                "com_apple_garageband_metadata_projectType",
+                "com_apple_garageband_metadata_parentalAdvisory",
+                kMDItemDurationSeconds,
+                kMDItemTempo,
+                kMDItemKeySignature,
+                kMDItemTimeSignature,
+                "com_apple_garageband_metadata_songVersionNumber"
+            );
+            name = "com.apple.garageband.template.magic";
+        };
+        "com.apple.ical.bookmark" =         {
+            allattrs =             (
+                kMDItemDisplayName,
+                kMDItemTitle,
+                kMDItemCoverage,
+                kMDItemWhereFroms,
+                kMDItemAuthors,
+                kMDItemContactKeywords,
+                kMDItemComment,
+                kMDItemDueDate
+            );
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemCoverage,
+                kMDItemWhereFroms,
+                kMDItemAuthors,
+                kMDItemContactKeywords,
+                kMDItemDueDate
+            );
+            name = "com.apple.ical.bookmark";
+            relatedattrs =             (
+                kMDItemAuthors,
+                kMDItemDueDate
+            );
+        };
+        "com.apple.ical.bookmark.todo" =         {
+            allattrs =             (
+                kMDItemDisplayName,
+                kMDItemCoverage,
+                kMDItemTitle,
+                kMDItemWhereFroms,
+                kMDItemAuthors,
+                kMDItemContactKeywords,
+                kMDItemComment,
+                kMDItemDueDate
+            );
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemCoverage,
+                kMDItemWhereFroms,
+                kMDItemAuthors,
+                kMDItemContactKeywords,
+                kMDItemDueDate
+            );
+            name = "com.apple.ical.bookmark.todo";
+            relatedattrs =             (
+                kMDItemAuthors,
+                kMDItemDueDate
+            );
+        };
+        "com.apple.ichat.transcript" =         {
+            allattrs =             (
+                kMDItemAuthors,
+                kMDItemContentCreationDate,
+                kMDItemDeliveryType,
+                kMDItemDurationSeconds,
+                kMDItemInstantMessageAddresses,
+                kMDItemCoverage
+            );
+            displayattrs =             (
+                kMDItemAuthors,
+                kMDItemCoverage,
+                kMDItemContentCreationDate,
+                kMDItemDeliveryType,
+                kMDItemDurationSeconds,
+                kMDItemInstantMessageAddresses
+            );
+            name = "com.apple.ichat.transcript";
+        };
+        "com.apple.keynote.key" =         {
+            allattrs =             (
+                kMDItemTitle,
+                kMDItemKeywords,
+                kMDItemAuthors,
+                kMDItemComment
+            );
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemKeywords,
+                kMDItemAuthors,
+                kMDItemComment
+            );
+            name = "com.apple.keynote.key";
+        };
+        "com.apple.mail.emlx" =         {
+            allattrs =             (
+                kMDItemTitle,
+                kMDItemAuthors,
+                kMDItemContentCreationDate,
+                kMDItemAuthorEmailAddresses,
+                kMDItemRecipients,
+                kMDItemRecipientEmailAddresses
+            );
+            displayattrs =             (
+                kMDItemContentCreationDate,
+                kMDItemAuthors,
+                kMDItemRecipients
+            );
+            name = "com.apple.mail.emlx";
+            readonlyattrs =             (
+                kMDItemTitle,
+                kMDItemAuthors,
+                kMDItemContentCreationDate,
+                kMDItemAuthorEmailAddresses,
+                kMDItemRecipients,
+                kMDItemRecipientEmailAddresses
+            );
+            relatedattrs =             (
+                kMDItemTitle
+            );
+        };
+        "com.apple.quartz-composer-composition" =         {
+            allattrs =             (
+                kMDItemTitle,
+                kMDItemComment,
+                kMDItemCopyright,
+                kMDItemTextContent
+            );
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemComment
+            );
+            name = "com.apple.quartz-composer-composition";
+        };
+        "com.apple.quicktime-movie" =         {
+            allattrs =             (
+                kMDItemAuthors,
+                kMDItemDescription,
+                kMDItemInformation,
+                kMDItemAlbum,
+                kMDItemDirector,
+                kMDItemProducer,
+                kMDItemEncodingApplications,
+                kMDItemComposer,
+                kMDItemGenre,
+                kMDItemPerformers,
+                kMDItemOriginalFormat,
+                kMDItemOriginalSource
+            );
+            name = "com.apple.quicktime-movie";
+        };
+        "com.apple.rtfd" =         {
+            allattrs =             (
+                kMDItemCopyright,
+                kMDItemTitle,
+                kMDItemSubject,
+                kMDItemOrganizations,
+                kMDItemAuthors,
+                kMDItemKeywords,
+                kMDItemComment,
+                kMDItemContentCreationDate,
+                kMDItemContentModificationDate
+            );
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemSubject,
+                kMDItemOrganizations,
+                kMDItemAuthors,
+                kMDItemKeywords,
+                kMDItemComment,
+                kMDItemContentCreationDate,
+                kMDItemContentModificationDate
+            );
+            exporterAvailable = 1;
+            name = "com.apple.rtfd";
+            relatedattrs =             (
+                kMDItemOrganizations,
+                kMDItemAuthors
+            );
+        };
+        "com.apple.safari.bookmark" =         {
+            allattrs =             (
+                kMDItemURL
+            );
+            displayattrs =             (
+                kMDItemURL
+            );
+            name = "com.apple.safari.bookmark";
+            relatedattrs =             (
+                kMDItemURL
+            );
+        };
+        "com.apple.systempreference.prefpane" =         {
+            allattrs =             (
+                kMDItemDisplayName
+            );
+            name = "com.apple.systempreference.prefpane";
+        };
+        "com.apple.traditional-mac-plain-text" =         {
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemSubject,
+                kMDItemOrganizations,
+                kMDItemAuthors,
+                kMDItemKeywords,
+                kMDItemComment
+            );
+            name = "com.apple.traditional-mac-plain-text";
+        };
+        "com.apple.webarchive" =         {
+            allattrs =             (
+                kMDItemTitle,
+                kMDItemSubject,
+                kMDItemOrganizations,
+                kMDItemAuthors,
+                kMDItemKeywords,
+                kMDItemComment,
+                kMDItemContentCreationDate,
+                kMDItemContentModificationDate
+            );
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemSubject,
+                kMDItemOrganizations,
+                kMDItemAuthors,
+                kMDItemKeywords,
+                kMDItemComment,
+                kMDItemContentCreationDate,
+                kMDItemContentModificationDate
+            );
+            name = "com.apple.webarchive";
+        };
+        "com.apple.xcode.dsym" =         {
+            allattrs =             (
+                "com_apple_xcode_dsym_uuids"
+            );
+            displayattrs =             (
+                "com_apple_xcode_dsym_uuids"
+            );
+            name = "com.apple.xcode.dsym";
+        };
+        "com.aquafadas.pulpmotion.pulpmotion" =         {
+            allattrs =             (
+                kMDItemTitle,
+                kMDItemDescription,
+                kMDItemCreator,
+                kMDItemSubject,
+                kMDItemMediaTypes,
+                "com_pulpmotion_project_standalone",
+                "com_pulpmotion_project_story",
+                "com_pulpmotion_project_videoCount",
+                "com_pulpmotion_project_imageCount",
+                "com_pulpmotion_project_hasSoundtrack",
+                "com_pulpmotion_project_hasLiveVideo",
+                "com_pulpmotion_project_themeId",
+                "com_pulpmotion_project_mediaTitles",
+                "com_pulpmotion_project_mediaNotes",
+                "com_pulpmotion_project_mediaDates"
+            );
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemDescription,
+                kMDItemCreator,
+                kMDItemSubject,
+                kMDItemMediaTypes,
+                "com_pulpmotion_project_standalone",
+                "com_pulpmotion_project_story",
+                "com_pulpmotion_project_videoCount",
+                "com_pulpmotion_project_imageCount",
+                "com_pulpmotion_project_hasSoundtrack",
+                "com_pulpmotion_project_hasLiveVideo",
+                "com_pulpmotion_project_themeId",
+                "com_pulpmotion_project_mediaTitles",
+                "com_pulpmotion_project_mediaNotes",
+                "com_pulpmotion_project_mediaDates"
+            );
+            name = "com.aquafadas.pulpmotion.pulpmotion";
+        };
+        "com.aquaminds.notetaker.notebook" =         {
+            allattrs =             (
+                "com_aquaminds_NoteTaker_appversion"
+            );
+            displayattrs =             (
+                "com_aquaminds_NoteTaker_appversion"
+            );
+            name = "com.aquaminds.notetaker.notebook";
+        };
+        "com.devon-technologies.metadata.note" =         {
+            allattrs =             (
+                kMDItemContentCreationDate,
+                kMDItemContentModificationDate,
+                kMDItemDisplayName,
+                kMDItemTitle,
+                kMDItemTextContent,
+                kMDItemComment,
+                "com_DEVONtechnologies_think_RecordKind",
+                "com_DEVONtechnologies_think_RecordAliases"
+            );
+            displayattrs =             (
+                kMDItemDisplayName,
+                kMDItemContentModificationDate,
+                "com_DEVONtechnologies_think_RecordKind",
+                "com_DEVONtechnologies_think_RecordAliases"
+            );
+            name = "com.devon-technologies.metadata.note";
+        };
+        "com.devon-technologies.metadata.think" =         {
+            allattrs =             (
+                kMDItemContentCreationDate,
+                kMDItemContentModificationDate,
+                kMDItemDisplayName,
+                kMDItemTitle,
+                kMDItemTextContent,
+                kMDItemComment,
+                "com_DEVONtechnologies_think_RecordKind",
+                "com_DEVONtechnologies_think_RecordAliases"
+            );
+            displayattrs =             (
+                kMDItemDisplayName,
+                kMDItemContentModificationDate,
+                "com_DEVONtechnologies_think_RecordKind",
+                "com_DEVONtechnologies_think_RecordAliases"
+            );
+            name = "com.devon-technologies.metadata.think";
+        };
+        "com.devon-technologies.metadata.thinkpro" =         {
+            allattrs =             (
+                kMDItemContentCreationDate,
+                kMDItemContentModificationDate,
+                kMDItemDisplayName,
+                kMDItemTitle,
+                kMDItemTextContent,
+                kMDItemComment,
+                "com_DEVONtechnologies_think_DatabaseName",
+                "com_DEVONtechnologies_think_RecordKind",
+                "com_DEVONtechnologies_think_RecordAliases"
+            );
+            displayattrs =             (
+                kMDItemDisplayName,
+                kMDItemContentCreationDate,
+                kMDItemContentModificationDate,
+                "com_DEVONtechnologies_think_DatabaseName",
+                "com_DEVONtechnologies_think_RecordKind",
+                "com_DEVONtechnologies_think_RecordAliases"
+            );
+            name = "com.devon-technologies.metadata.thinkpro";
+        };
+        "com.google.earth.kml" =         {
+            allattrs =             (
+                kMDItemPhoneNumbers,
+                kMDItemTextContent,
+                kMDItemKeywords,
+                kMDItemTitle
+            );
+            displayattrs =             (
+                kMDItemTitle
+            );
+            name = "com.google.earth.kml";
+        };
+        "com.google.earth.kmz" =         {
+            allattrs =             (
+                kMDItemPhoneNumbers,
+                kMDItemTextContent,
+                kMDItemKeywords,
+                kMDItemTitle
+            );
+            displayattrs =             (
+                kMDItemTitle
+            );
+            name = "com.google.earth.kmz";
+        };
+        "com.hwit.iserialreader.indexfile" =         {
+            allattrs =             (
+                "com_hwit_iserialreader_indexfile_programname"
+            );
+            displayattrs =             (
+                "com_hwit_iserialreader_indexfile_programname"
+            );
+            name = "com.hwit.iserialreader.indexfile";
+        };
+        "com.iconfactory.pixadex.icontainer" =         {
+            allattrs =             (
+                kMDItemAuthors,
+                kMDItemCopyright,
+                kMDItemTitle,
+                kMDItemWhereFroms
+            );
+            displayattrs =             (
+                kMDItemAuthors,
+                kMDItemCopyright,
+                kMDItemTitle,
+                kMDItemWhereFroms
+            );
+            name = "com.iconfactory.pixadex.icontainer";
+        };
+        "com.iconfactory.pixadex.pxicon" =         {
+            allattrs =             (
+                kMDItemAuthors,
+                kMDItemComment,
+                kMDItemContentCreationDate,
+                kMDItemCopyright,
+                kMDItemKeywords,
+                kMDItemTitle,
+                kMDItemWhereFroms,
+                "com_iconfactory_pixadex_dateAdded"
+            );
+            displayattrs =             (
+                kMDItemAuthors,
+                kMDItemComment,
+                kMDItemCopyright,
+                kMDItemKeywords,
+                kMDItemTitle,
+                kMDItemWhereFroms
+            );
+            name = "com.iconfactory.pixadex.pxicon";
+        };
+        "com.latenightsw.osa.bundle" =         {
+            name = "com.latenightsw.osa.bundle";
+        };
+        "com.lemonodor.lisp-source" =         {
+            allattrs =             (
+                kMDItemTextContent,
+                "org_lisp_definitions",
+                "org_lisp_defuns",
+                "org_lisp_defmethods",
+                "org_lisp_defgenerics",
+                "org_lisp_defmacros",
+                "org_lisp_defvars",
+                "org_lisp_defclasses",
+                "org_lisp_defstructs"
+            );
+            name = "com.lemonodor.lisp-source";
+        };
+        "com.likethought.opacity.opacity" =         {
+            allattrs =             (
+                kMDItemLayerNames,
+                kMDItemPixelWidth,
+                kMDItemPixelHeight,
+                kMDItemColorSpace,
+                kMDItemBitsPerSample,
+                kMDItemProfileName,
+                kMDItemResolutionWidthDPI,
+                kMDItemResolutionHeightDPI,
+                kMDItemHasAlphaChannel,
+                "com_likethought_opacity_variableNames",
+                "com_likethought_opacity_texts",
+                "com_likethought_opacity_factories",
+                "com_likethought_opacity_vectorCount",
+                "com_likethought_opacity_frameNames",
+                "com_likethought_opacity_resolutions",
+                "com_likethought_opacity_filterNames"
+            );
+            displayattrs =             (
+                kMDItemPixelWidth,
+                kMDItemPixelHeight,
+                "com_likethought_opacity_variableNames",
+                "com_likethought_opacity_resolutions"
+            );
+            name = "com.likethought.opacity.opacity";
+            previewattrs =             (
+                kMDItemPixelWidth,
+                kMDItemPixelHeight,
+                "com_likethought_opacity_variableNames",
+                "com_likethought_opacity_resolutions"
+            );
+        };
+        "com.llamagraphics.life-balance.document" =         {
+            allattrs =             (
+                kMDItemTextContent,
+                kMDItemCreator
+            );
+            displayattrs =             (
+                kMDItemTextContent,
+                kMDItemCreator
+            );
+            name = "com.llamagraphics.life-balance.document";
+        };
+        "com.microsoft.excel.xls" =         {
+            allattrs =             (
+                kMDItemTitle,
+                kMDItemAuthors,
+                kMDItemComment
+            );
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemAuthors,
+                kMDItemComment
+            );
+            name = "com.microsoft.excel.xls";
+        };
+        "com.microsoft.word.doc" =         {
+            allattrs =             (
+                kMDItemTitle,
+                kMDItemSubject,
+                kMDItemAuthors,
+                kMDItemComment
+            );
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemSubject,
+                kMDItemAuthors,
+                kMDItemComment
+            );
+            name = "com.microsoft.word.doc";
+        };
+        "com.nakahara-informatics.iget.shortcut" =         {
+            allattrs =             (
+                "com_nakaharainformatics_iget_shortcut_userdefinedname",
+                "com_nakaharainformatics_iget_shortcut_remotemacaddress",
+                "com_nakaharainformatics_iget_shortcut_username",
+                "com_nakaharainformatics_iget_shortcut_remotepath",
+                "com_nakaharainformatics_iget_shortcut_comments"
+            );
+            displayattrs =             (
+                "com_nakaharainformatics_iget_shortcut_userdefinedname",
+                "com_nakaharainformatics_iget_shortcut_remotemacaddress",
+                "com_nakaharainformatics_iget_shortcut_username",
+                "com_nakaharainformatics_iget_shortcut_remotepath",
+                "com_nakaharainformatics_iget_shortcut_comments"
+            );
+            name = "com.nakahara-informatics.iget.shortcut";
+        };
+        "com.omnigroup.omnifocus.project.metadata" =         {
+            allattrs =             (
+                "com_omnigroup_OmniFocus_LastReviewDate",
+                "com_omnigroup_OmniFocus_NextReviewDate",
+                "com_omnigroup_OmniFocus_TaskCount",
+                "com_omnigroup_OmniFocus_StartDate",
+                "com_omnigroup_OmniFocus_MinimumDueDate",
+                "com_omnigroup_OmniFocus_Status",
+                "com_omnigroup_OmniFocus_ContainsSingletonActions",
+                "com_omnigroup_OmniFocus_AttachmentCount",
+                "com_omnigroup_OmniFocus_DirectFolderName",
+                "com_omnigroup_OmniFocus_ContainingFolderNames",
+                "com_omnigroup_OmniFocus_AssociatedContexts"
+            );
+            displayattrs =             (
+                "com_omnigroup_OmniFocus_LastReviewDate",
+                "com_omnigroup_OmniFocus_NextReviewDate",
+                "com_omnigroup_OmniFocus_TaskCount",
+                "com_omnigroup_OmniFocus_StartDate",
+                "com_omnigroup_OmniFocus_MinimumDueDate",
+                "com_omnigroup_OmniFocus_Status",
+                "com_omnigroup_OmniFocus_ContainsSingletonActions",
+                "com_omnigroup_OmniFocus_AttachmentCount",
+                "com_omnigroup_OmniFocus_DirectFolderName",
+                "com_omnigroup_OmniFocus_ContainingFolderNames",
+                "com_omnigroup_OmniFocus_AssociatedContexts"
+            );
+            name = "com.omnigroup.omnifocus.project.metadata";
+        };
+        "com.panic.candybar.icontainer" =         {
+            allattrs =             (
+                kMDItemAuthors,
+                kMDItemCopyright,
+                kMDItemTitle,
+                kMDItemWhereFroms
+            );
+            displayattrs =             (
+                kMDItemAuthors,
+                kMDItemCopyright,
+                kMDItemTitle,
+                kMDItemWhereFroms
+            );
+            name = "com.panic.candybar.icontainer";
+        };
+        "com.panic.candybar.pxicon" =         {
+            allattrs =             (
+                kMDItemAuthors,
+                kMDItemComment,
+                kMDItemContentCreationDate,
+                kMDItemCopyright,
+                kMDItemKeywords,
+                kMDItemTitle,
+                kMDItemWhereFroms,
+                "com_iconfactory_pixadex_dateAdded"
+            );
+            displayattrs =             (
+                kMDItemAuthors,
+                kMDItemComment,
+                kMDItemCopyright,
+                kMDItemKeywords,
+                kMDItemTitle,
+                kMDItemWhereFroms
+            );
+            name = "com.panic.candybar.pxicon";
+        };
+        "com.pkware.zip-archive" =         {
+            allattrs =             (
+                kMDItemTextContent
+            );
+            displayattrs =             (
+                kMDItemTextContent
+            );
+            name = "com.pkware.zip-archive";
+        };
+        "com.spotmeta.null" =         {
+            allattrs =             (
+                "org_spotmeta_st_Example",
+                "org_spotmeta_mc_Work__category",
+                "org_spotmeta_sd_Due__date",
+                "org_spotmeta_st_Quartz__Compositions"
+            );
+            displayattrs =             (
+                "org_spotmeta_st_Example",
+                "org_spotmeta_mc_Work__category",
+                "org_spotmeta_sd_Due__date",
+                "org_spotmeta_st_Quartz__Compositions"
+            );
+            name = "com.spotmeta.null";
+        };
+        "org.gnu.gnu-zip-tar-archive" =         {
+            allattrs =             (
+                kMDItemTextContent
+            );
+            displayattrs =             (
+                kMDItemTextContent
+            );
+            name = "org.gnu.gnu-zip-tar-archive";
+        };
+        "public.audio" =         {
+            allattrs =             (
+                kMDItemAlbum,
+                kMDItemAuthors,
+                kMDItemComposer,
+                kMDItemMusicalGenre,
+                kMDItemRecordingDate,
+                kMDItemRecordingYear,
+                kMDItemTitle,
+                kMDItemComment,
+                kMDItemMediaTypes,
+                kMDItemTotalBitRate,
+                kMDItemAudioBitRate,
+                kMDItemKeySignature,
+                kMDItemTimeSignature,
+                kMDItemAudioEncodingApplication,
+                kMDItemLyricist,
+                kMDItemAudioTrackNumber,
+                kMDItemMusicalInstrumentCategory,
+                kMDItemMusicalInstrumentName,
+                kMDItemAppleLoopDescriptors,
+                kMDItemAppleLoopsRootKey,
+                kMDItemAppleLoopsKeyFilterType,
+                kMDItemAppleLoopsLoopMode
+            );
+            displayattrs =             (
+                kMDItemAlbum,
+                kMDItemTitle,
+                kMDItemMusicalGenre,
+                kMDItemRecordingDate,
+                kMDItemAuthors,
+                kMDItemComposer,
+                kMDItemRecordingYear,
+                kMDItemComment
+            );
+            name = "public.audio";
+            previewattrs =             (
+                kMDItemDurationSeconds,
+                kMDItemAudioBitRate,
+                kMDItemLastUsedDate
+            );
+            readonlyattrs =             (
+                kMDItemDurationSeconds,
+                kMDItemTotalBitRate,
+                kMDItemAudioBitRate,
+                kMDItemAudioEncodingApplication,
+                kMDItemMusicalInstrumentCategory,
+                kMDItemMusicalInstrumentName,
+                kMDItemAppleLoopDescriptors,
+                kMDItemAppleLoopsRootKey,
+                kMDItemAppleLoopsKeyFilterType,
+                kMDItemAppleLoopsLoopMode
+            );
+            relatedattrs =             (
+                kMDItemAlbum,
+                kMDItemAuthors
+            );
+        };
+        "public.audiovisual-content" =         {
+            allattrs =             (
+                kMDItemAudioChannelCount,
+                kMDItemAuthors,
+                kMDItemCodecs,
+                kMDItemCopyright,
+                kMDItemDurationSeconds,
+                kMDItemEncodingApplications,
+                kMDItemPixelHeight,
+                kMDItemPixelWidth,
+                kMDItemStarRating,
+                kMDItemTitle,
+                kMDItemTotalBitRate,
+                kMDItemInformation,
+                kMDItemDirector,
+                kMDItemProducer,
+                kMDItemGenre,
+                kMDItemPerformers,
+                kMDItemOriginalFormat,
+                kMDItemOriginalSource
+            );
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemPixelHeight,
+                kMDItemPixelWidth,
+                kMDItemDurationSeconds,
+                kMDItemAuthors,
+                kMDItemPerformers,
+                kMDItemDirector,
+                kMDItemProducer,
+                kMDItemGenre,
+                kMDItemCopyright,
+                kMDItemAudioChannelCount,
+                kMDItemTotalBitRate,
+                kMDItemCodecs,
+                kMDItemEncodingApplications,
+                kMDItemOriginalFormat,
+                kMDItemOriginalSource,
+                kMDItemStarRating,
+                kMDItemInformation
+            );
+            name = "public.audiovisual-content";
+            readonlyattrs =             (
+                kMDItemAudioChannelCount,
+                kMDItemCodecs,
+                kMDItemDurationSeconds,
+                kMDItemPixelHeight,
+                kMDItemPixelWidth,
+                kMDItemTotalBitRate
+            );
+        };
+        "public.bookmark" =         {
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemPhoneNumbers,
+                kMDItemEmailAddresses,
+                kMDItemInstantMessageAddresses
+            );
+            name = "public.bookmark";
+        };
+        "public.calendar-event" =         {
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemCoverage,
+                kMDItemWhereFroms,
+                kMDItemAuthors,
+                kMDItemContactKeywords,
+                kMDItemDueDate
+            );
+            name = "public.calendar-event";
+        };
+        "public.contact" =         {
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemPhoneNumbers,
+                kMDItemEmailAddresses,
+                kMDItemInstantMessageAddresses
+            );
+            name = "public.contact";
+        };
+        "public.cpio-archive" =         {
+            allattrs =             (
+                kMDItemTextContent
+            );
+            displayattrs =             (
+                kMDItemTextContent
+            );
+            name = "public.cpio-archive";
+        };
+        "public.email-message" =         {
+            displayattrs =             (
+                kMDItemContentCreationDate,
+                kMDItemAuthors,
+                kMDItemRecipients
+            );
+            name = "public.email-message";
+        };
+        "public.font" =         {
+            allattrs =             (
+                kMDItemAuthors,
+                kMDItemCopyright,
+                kMDItemFonts
+            );
+            name = "public.font";
+            previewattrs =             (
+                kMDItemLastUsedDate
+            );
+            relatedattrs =             (
+                kMDItemCopyright
+            );
+        };
+        "public.html" =         {
+            allattrs =             (
+                kMDItemTitle,
+                kMDItemSubject,
+                kMDItemOrganizations,
+                kMDItemAuthors,
+                kMDItemKeywords,
+                kMDItemComment,
+                kMDItemContentCreationDate,
+                kMDItemContentModificationDate
+            );
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemSubject,
+                kMDItemOrganizations,
+                kMDItemAuthors,
+                kMDItemKeywords,
+                kMDItemComment,
+                kMDItemContentCreationDate,
+                kMDItemContentModificationDate
+            );
+            name = "public.html";
+        };
+        "public.image" =         {
+            allattrs =             (
+                kMDItemAcquisitionMake,
+                kMDItemAcquisitionModel,
+                kMDItemAlbum,
+                kMDItemAperture,
+                kMDItemCity,
+                kMDItemColorSpace,
+                kMDItemColorSpace,
+                kMDItemCountry,
+                kMDItemDescription,
+                kMDItemEXIFVersion,
+                kMDItemExposureMode,
+                kMDItemExposureProgram,
+                kMDItemExposureTimeSeconds,
+                kMDItemFNumber,
+                kMDItemFlashOnOff,
+                kMDItemFocalLength,
+                kMDItemHasAlphaChannel,
+                kMDItemHeadline,
+                kMDItemISOSpeed,
+                kMDItemInstructions,
+                kMDItemKeywords,
+                kMDItemLayerNames,
+                kMDItemMaxAperture,
+                kMDItemMeteringMode,
+                kMDItemOrientation,
+                kMDItemPixelHeight,
+                kMDItemPixelWidth,
+                kMDItemProfileName,
+                kMDItemRedEyeOnOff,
+                kMDItemResolutionHeightDPI,
+                kMDItemResolutionWidthDPI,
+                kMDItemStateOrProvince,
+                kMDItemTitle,
+                kMDItemWhiteBalance,
+                kMDItemEXIFGPSVersion,
+                kMDItemAltitude,
+                kMDItemLatitude,
+                kMDItemLongitude
+            );
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemPixelHeight,
+                kMDItemPixelWidth,
+                kMDItemAcquisitionMake,
+                kMDItemAcquisitionModel,
+                kMDItemColorSpace,
+                kMDItemProfileName,
+                kMDItemFocalLength,
+                kMDItemLayerNames,
+                kMDItemAlbum,
+                kMDItemDescription,
+                kMDItemHasAlphaChannel,
+                kMDItemRedEyeOnOff,
+                kMDItemMeteringMode,
+                kMDItemMaxAperture,
+                kMDItemFNumber,
+                kMDItemExposureProgram,
+                kMDItemExposureTimeSeconds,
+                kMDItemHeadline,
+                kMDItemInstructions,
+                kMDItemCity,
+                kMDItemStateOrProvince,
+                kMDItemCountry
+            );
+            name = "public.image";
+            previewattrs =             (
+                kMDItemPixelHeight,
+                kMDItemPixelWidth,
+                kMDItemLastUsedDate
+            );
+            readonlyattrs =             (
+                kMDItemPixelHeight,
+                kMDItemPixelWidth,
+                kMDItemResolutionWidthDPI,
+                kMDItemResolutionHeightDPI
+            );
+            relatedattrs =             (
+                kMDItemAuthors,
+                kMDItemPixelHeight,
+                kMDItemPixelWidth
+            );
+        };
+        "public.item" =         {
+            displayattrs =             (
+                kMDItemKeywords,
+                kMDItemWhereFroms,
+                kMDItemLastUsedDate
+            );
+            name = "public.item";
+            previewattrs =             (
+                kMDItemLastUsedDate
+            );
+            readonlyattrs =             (
+                kMDItemPath,
+                kMDItemAttributeChangeDate,
+                kMDItemContentType,
+                kMDItemContentTypeTree,
+                kMDItemDisplayName,
+                kMDItemKind,
+                kMDItemLastUsedDate,
+                kMDItemTextContent
+            );
+            relatedattrs =             (
+                kMDItemKeywords
+            );
+        };
+        "public.movie" =         {
+            allattrs =             (
+                kMDItemAcquisitionMake,
+                kMDItemAcquisitionModel,
+                kMDItemAudioBitRate,
+                kMDItemCodecs,
+                kMDItemColorSpace,
+                kMDItemDeliveryType,
+                kMDItemLayerNames,
+                kMDItemMediaTypes,
+                kMDItemPixelHeight,
+                kMDItemPixelWidth,
+                kMDItemStreamable,
+                kMDItemTotalBitRate,
+                kMDItemVideoBitRate
+            );
+            displayattrs =             (
+                kMDItemPixelHeight,
+                kMDItemPixelWidth,
+                kMDItemCodecs
+            );
+            name = "public.movie";
+            previewattrs =             (
+                kMDItemPixelHeight,
+                kMDItemPixelWidth,
+                kMDItemDurationSeconds,
+                kMDItemLastUsedDate
+            );
+            readonlyattrs =             (
+                kMDItemPixelHeight,
+                kMDItemPixelWidth,
+                kMDItemDurationSeconds
+            );
+            relatedattrs =             (
+                kMDItemCopyright,
+                kMDItemAuthors,
+                kMDItemTitle
+            );
+        };
+        "public.plain-text" =         {
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemSubject,
+                kMDItemOrganizations,
+                kMDItemAuthors,
+                kMDItemEditors,
+                kMDItemKeywords,
+                kMDItemComment
+            );
+            name = "public.plain-text";
+        };
+        "public.rtf" =         {
+            allattrs =             (
+                kMDItemCopyright,
+                kMDItemTitle,
+                kMDItemSubject,
+                kMDItemOrganizations,
+                kMDItemAuthors,
+                kMDItemKeywords,
+                kMDItemComment,
+                kMDItemContentCreationDate,
+                kMDItemContentModificationDate
+            );
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemSubject,
+                kMDItemOrganizations,
+                kMDItemAuthors,
+                kMDItemKeywords,
+                kMDItemComment,
+                kMDItemContentCreationDate,
+                kMDItemContentModificationDate
+            );
+            exporterAvailable = 1;
+            name = "public.rtf";
+            relatedattrs =             (
+                kMDItemOrganizations,
+                kMDItemAuthors
+            );
+        };
+        "public.tar-archive" =         {
+            allattrs =             (
+                kMDItemTextContent
+            );
+            displayattrs =             (
+                kMDItemTextContent
+            );
+            name = "public.tar-archive";
+        };
+        "public.to-do-item" =         {
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemCoverage,
+                kMDItemWhereFroms,
+                kMDItemAuthors,
+                kMDItemContactKeywords,
+                kMDItemDueDate
+            );
+            name = "public.to-do-item";
+        };
+        "supported_uti_type" =         {
+            allattrs =             (
+                "com_Foo_YourAttrName"
+            );
+            displayattrs =             (
+                "com_Foo_YourAttrName"
+            );
+            name = "supported_uti_type";
+        };
+    };
+    version = "1.0";
+    xmlns = "http://www.apple.com/metadata";
+    "xmlns:xsi" = "http://www.w3.org/2001/XMLSchema-instance";
+    "xsi:schemaLocation" = "http://www.apple.com/metadata file:///System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Resources/MetadataSchema.xsd";
+}

@@ -1,0 +1,82 @@
+{\rtf1\mac\ansicpg10000\cocoartf102
+{\fonttbl\f0\fswiss\fcharset77 Helvetica;\f1\fswiss\fcharset77 Helvetica-Bold;\f2\fswiss\fcharset77 Helvetica-Oblique;
+}
+{\colortbl;\red255\green255\blue255;\red52\green105\blue188;\red0\green0\blue255;\red102\green102\blue102;
+}
+\margl1440\margr1440\vieww9000\viewh9000\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\f0\fs84 \cf0 Rip to iPod 
+\fs36 v1.0
+\fs84 \
+
+\fs36 AppleScript for iTunes (OS 9 and OS X)\
+
+\fs24 \
+Find more 
+\f1\b free
+\f0\b0  AppleScripts\
+and info on writing your own\
+at Doug's AppleScripts\
+\cf2 http://www.malcolmadams.com/itunes/\cf0 \
+\
+
+\fs36 Imports the enabled (check-marked) CD tracks to iPod via iTunes using your choice of encoder (your Preferences-set encoder is restored afterwards), then removes the tracks from iTunes library and deletes the files from your hard drive.\
+
+\fs24 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\f1\b \cf3 \
+How to use:
+\f0\b0 \cf0 \
+\
+Put this script in your iTunes Scripts folder. This is located in 
+\f2\i \cf4 home > Library > iTunes
+\f0\i0 \cf0 . If there is no Scripts folder there, create one and put the script in it. It will then appear in iTunes' Scripts Menu, where you can select it by clicking on its name. (It is an AppleScript application\'d0"applet"\'d0 and can run from anywhere on your computer, but runs more conveniently from iTunes Scripts Menu.)
+\fs36 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\fs24 \cf0 \
+
+\f1\b Before using
+\f0\b0 , make sure iPod is 
+\f1\b not
+\f0\b0  set to automatically update: select iPod in the iTunes Source pane, click the iPod Options button, and select "Manually manage songs and playlists."\
+\
+Insert a CD, make sure iPod is mounted, and run the script. Select "New Encoder" from the first screen to select a different encoder if you wish. The enabled CD tracks will be imported and sent to the iPod. However, tracks will be removed from iTunes and files deleted from your Hard Drive.\
+\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\f1\b \cf3 Issues:
+\f0\b0 \cf0 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\f1\b \cf0 Choosing Encoders
+\f0\b0  - When you select a new encoder\'d0by clicking on "New Encoder" on the main screen\'d0the most recent settings for that encoder will be used. These can be set in iTunes Importing Preferences.\
+\
+
+\f1\b International Characters
+\f0\b0  - There is a pesky problem of iTunes sometimes not recognizing international characters when converting from CD (this is true whether converting via AppleScript or not). For these tracks, sorry to say, you will have to convert "by hand" (drag to library).\
+\
+
+\f1\b iPod Capacity
+\f0\b0  - The script checks to see if you have a reasonable amount of room left on the iPod before ripping each track. If it appears there is not enough room, the script will alert you and cancel. This will be improved upon in future versions.\
+\
+
+\f1\b OS 9
+\f0\b0  - runs fine using iTunes 2.0.4 in OS 9, with one difference: files are moved to the Trash but the Trash is not emptied.\
+\
+
+\f1\b "Finished" Chime
+\f0\b0  - The "finished" chime will sound after each track is imported. I can't work around this : \\\
+\
+My name is Doug Adams\
+dougadams@mac.com\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\f1\b\fs20 \cf0 By using this script you accede that the author cannot be held responsible for any tragedies arising thereof.
+\f0\b0 \
+}

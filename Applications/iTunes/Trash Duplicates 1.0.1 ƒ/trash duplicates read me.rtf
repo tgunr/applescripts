@@ -1,0 +1,51 @@
+{\rtf1\mac\ansicpg10000\cocoartf100
+{\fonttbl\f0\fswiss\fcharset77 Helvetica-Bold;\f1\fswiss\fcharset77 Helvetica;\f2\fswiss\fcharset77 Helvetica-BoldOblique;
+\f3\fswiss\fcharset77 Helvetica-Oblique;\f4\fnil\fcharset77 Geneva;}
+{\colortbl;\red255\green255\blue255;\red255\green89\blue92;\red0\green0\blue0;}
+\margl1440\margr1440\vieww11820\viewh10500\viewkind0
+\pard\tx1440\tx2880\tx4320\tx5760\tx7200\qc
+
+\f0\b\fs24 \cf2 Trash Duplicates:  by Wooden Brain Concepts \
+<http://beam.to/woodenbrain>
+\f1\b0 \cf0 \
+\pard\tx1440\tx2880\tx4320\tx5760\tx7200\ql\qnatural
+\cf0 \
+If you have, or think you might have, multiple copies of the same song scattered around your volumes, then use this script.\
+\
+The script will compare any two tracks you select.  If they are duplicate entries (referring to the same file), one will be removed (from the playlist) automatically.  Dead tracks (entries referring to files that don't exist an that location) will be removed automatically.\
+\
+The real power of this script comes when you select two tracks which refer to different files but you think might be the same.  The script will display a dialog showing information about the tracks, including the name of the song, the album (if available), the location, the file size, the duration, and the bit rate.  You can sample the tracks, listening to the beginning, middle, and end of each.  You then can trash one or the other of the tracks.  This will move the chosen file to the trash, and remove its entry from the playlist.\
+\
+
+\f2\i\b Important Note
+\f3\b0 : 
+\f1\i0 There is no cancel option on the trash/sample dialog. This is because AppleScript only allows 3 buttons per dialog.  Therefore, to cancel, simply hit one of the trash buttons and then abort in the next confirmation dialog.\
+\
+If you run the script with only two tracks selected, it will process those tracks and then quit.\
+\
+However, the script can be run as a background application.  If anything other than two tracks are selected when you launch it, it will give you the option of staying open.  If you do this, Trash Duplicates will continually monitor to see whether there are exactly two tracks selected and then act accordingly.  You will need to manually quit the application from the applet's file menu (or use cmd-Q).\
+\
+
+\f0\b \ul Additional Notes
+\f1\b0 \ulnone  \
+\
+\'a5 If you launch the script with anything other than two tracks selected and do not choose the stay open option, the script will operate in, ah, dummy mode, under the assumption that you haven't bothered to read this read me.  It will then give audible announcements asking that you select two files.\
+\
+\'a5 Limitation: there is no way to cancel the script during a sample.  I am looking for a way to resolve this. If anyone knows of a way to get keys pressed in AppleScript under OS X (without scripting additions) I can fix this in a future release.\
+\
+\'a5 All of the options (including time settings) must be done in the Script Editor.  These can be adjusted by changing the  properties at the beginning of the script.  (It's easy, I promise.) Otherwise, the defaults should be satisfactory for most people.\
+\
+\'a5 The sample function chooses the middle section of the song randomly, by default. It can be changed to use the dead middle, with a fixed adjustment, in the script.\
+\
+\'a5 Spoken announcements of sample positions can be turned off in the script.\
+\
+\'a5 Turn off or reduce the time of cross-fades in iTunes to hear the end of the samples clearly.\
+\
+\
+Version history\
+-------------------\
+\cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\f4\fs20 \cf3 v 1.0.1 (1/3/02)\
+bug fix, no longer relaunches iTunes if iTunes is quit while app is open.}

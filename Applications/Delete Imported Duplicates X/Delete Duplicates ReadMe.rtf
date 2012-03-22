@@ -1,0 +1,71 @@
+{\rtf1\mac\ansicpg10000\cocoartf100
+\readonlydoc1{\fonttbl\f0\fnil\fcharset77 LucidaGrande-Bold;\f1\fnil\fcharset77 LucidaGrande;\f2\fnil\fcharset77 Verdana-Italic;
+}
+{\colortbl;\red255\green255\blue255;\red241\green1\blue65;\red221\green9\blue7;\red0\green0\blue211;
+}
+\margl1440\margr1440\vieww11040\viewh8500\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\f0\b\fs48 \cf2 Delete Imported Duplicates X\
+
+\f1\b0\fs28 (
+\f2\i fast and effective)
+\f0\i0\b \cf3 \
+
+\fs36 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\f1\b0\fs26 \cf0 This script will \cf2 quickly\cf0  delete duplicate messages even from enormous folders such as the Inbox. The situation typically arises especially when importing Entourage 2001 or Outlook Express messages into Entourage X after using them both simultaneously for a while. All the 2001 messages are imported directly into the folders of the same name in Entourage, rather than being put into special import folders such as when you import from Eudora or another email client. While this is excellent in that 2001 or OE\'d5s messages retain all of their Source information and some history, you can be left with many duplicates in extremely large folders.\
+\
+\cf2 New in X:\cf0  This script is the same as the new v1.2 of Delete Imported Duplicates E for Entourage 2001. It fixes a bug that would error if you selected the first (or 101st, 201st, etc.) message in a folder, and another that would omit deleting a message under certain circumstances, where the first copy had not been replied to and the second had.\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\f0\b \cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\fs36 \cf2 Installation
+\f1\b0\fs26 \cf0 \
+\
+Put the \cf4 Delete Imported Duplicates X \cf0 script into the Entourage Script Menu Items folder in the Microsoft User Data folder in the Documents folder of your user folder ("Home") in the Users folder on your OS X hard disk. \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\f0\b\fs28 \cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\fs36 \cf2 Operation
+\f1\b0\fs26 \cf0 \
+\
+Select a folder containing duplicate messages in the folder pane to display in the Message Pane. You may find the next step simpler if you remove the Preview Pane (select Preview Pane in the View menu or press command -\\). 
+\f0\b Command-click
+\f1\b0  
+\f0\b (do not shift-click!) 
+\f1\b0  to select just two messages outside the limits of the imported messages. Then run the script from the script menu. It doesn\'d5t matter if you\'d5ve  stretched the limits it a bit to be safe: i.e. they do not need to be the
+\f0\b  immediately 
+\f1\b0 adjacent messages to the first and last imported ones, as long as they aren\'d5t too far outside them. And if you accidentally leave out a few imports, just run the script again. It will be very fast the second time. The script will alert you when it\'d5s finished \'d0 just leave the computer be while the script is working. In Entourage X, the script will be fast because it will take as much memory as it needs. If you had some sort of import problems and ended up with triplicates, also run the script a second time \'d0 it will be faster again.\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+\cf2 \
+How the script works
+\fs24 \cf0 \
+Scripts that are written using the normally excellent implementation of AppleScript \'d2whose clauses\'d3 (invariably used by scripters since they are much faster than repeat loops) will hang and die of memory overload without accomplishing anything at all when folders have more than 2000-3000 messages. And scripts which use laborious repeat loops through every message to avoid this fate can take hours, and may also eventually overload memory after accomplishing only part of the task. \
+\
+This script has three devices which, working together, effectively speed up this process so that it typically takes only seconds. One asks you, the user, to select two messages just outside the region of duplicates, to avoid wasting time with the thousands of messages which may pre-date the duplicates. (It doesn\'d5t matter if you stretch it a bit to be safe; and if you accidentally leave out a few, just run the script again.) The second does a quick scan of every hundredth message until it finds the index of these two selected messages, and is effectively almost 100 times as fast as a script which checks every message for the limits, and faster yet again than a script which doesn\'d5t look for the limits. \
+\
+When it starts comparing adjacent messages within the two limits, it will keep the copy which has been replied to \'d0 or barring that \'d0 forwarded, redirected, flagged, or has Entourage links. \
+\
+The third speed device is that the script does not bother comparing a message a second time when it has already found and deleted its duplicate. So if you had some sort of import problems and ended up with triplicates, just run the script a second time \'d0 it will be faster again.\
+
+\fs26 \
+\
+\
+\cf2 Requirements:\cf0  \cf4  Microsoft Entourage X\
+\cf2 Author:\cf0  Paul Berkowitz <berkowit@humanitas.ucsb.edu> 
+\f0\b \cf3 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\f1\b0\fs24 \cf0 \
+\
+}

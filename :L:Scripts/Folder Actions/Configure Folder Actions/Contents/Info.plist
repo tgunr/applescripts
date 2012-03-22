@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>11A475</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Folder Actions Setup</string>
+	<key>CFBundleIconFile</key>
+	<string>Folder Actions Setup.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.FolderActionsSetup</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Folder Actions Setup</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.1.5</string>
+	<key>CFBundleSignature</key>
+	<string>fasu</string>
+	<key>CFBundleVersion</key>
+	<string>1.1.5</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvmgcc42</string>
+	<key>DTPlatformBuild</key>
+	<string></string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>11A475</string>
+	<key>DTSDKName</key>
+	<string></string>
+	<key>DTXcode</key>
+	<string>0410</string>
+	<key>DTXcodeBuild</key>
+	<string></string>
+	<key>LSHasLocalizedDisplayName</key>
+	<true/>
+	<key>NSAppleScriptEnabled</key>
+	<true/>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSServices</key>
+	<array>
+		<dict>
+			<key>NSMenuItem</key>
+			<dict>
+				<key>default</key>
+				<string>Folder Actions Setup</string>
+			</dict>
+			<key>NSMessage</key>
+			<string>serviceConfigure</string>
+			<key>NSPortName</key>
+			<string>Folder Actions Setup</string>
+			<key>NSSendTypes</key>
+			<array>
+				<string>NSFilenamesPboardType</string>
+			</array>
+		</dict>
+	</array>
+	<key>NSSupportsSuddenTermination</key>
+	<true/>
+	<key>OSAScriptingDefinition</key>
+	<string>FolderActionsSetup.sdef</string>
+	<key>notOSAScriptingDefinition</key>
+	<string>FolderActionsSetup.sdef</string>
+</dict>
+</plist>

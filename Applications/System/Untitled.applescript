@@ -1,0 +1,1 @@
+tell application "System Preferences"	reveal anchor 1 of pane id "com.apple.preference.expose""get value of pop up button 1 of group 1 of tab group 1 of window \"Exposé & Spaces\" "end tell

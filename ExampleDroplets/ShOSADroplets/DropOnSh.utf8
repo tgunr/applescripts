@@ -1,0 +1,111 @@
+# ShOSA example
+
+TITLE="DroppedOnSh"
+UUID=`uuidgen`
+OUTDIR="/tmp/$UUID";
+OUTPUT="$OUTDIR/$TITLE.html"
+mkdir -p "$OUTDIR"
+
+CDATE=`date`;
+CYEAR=`date +'%Y'`;
+CPY=`tclsh <<< 'puts -nonewline [format %c 0xA9]'`
+
+TAN="#EEDDCC";
+DARK_BLUE=#000088;
+#AUTHOR=`/usr/bin/niutil -readprop . /users/$USER realname`;
+#URL=`defaults read com.apple.mail | grep -w EmailAddresses | cut -d '"' -f 2`;
+AUTHOR=`/usr/bin/dscl . -read /Users/$USER RealName | tr -d '\n' | cut -d ' ' -f 2-`
+URL=`$OSABRIDGE_SCRIPTS_FOLDER/emadds.sh`
+
+IMG="<img src=\"file://localhost/usr/share/httpd/icons/small/broken.png\">";
+
+
+INFO="<h3>&sect;</h3>
+<tt>For more information contact: <a href=\"mailto:$URL\">$AUTHOR</a> &lt;$URL&gt;</tt>
+<h3>&sect;</h3>
+<!-- Copyright $CPY $CYEAR, $AUTHOR. All Rights Reserved -->
+";
+
+echo "" > $OUTPUT
+echo "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">
+<title>$TITLE</title>
+<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">
+<meta name=\"description\" content=\"directory listing\">
+<style type=\"text/css\">
+	h1 {
+		text-align: left;
+		font-family:serif;
+	}
+	body {
+		color:$DARK_BLUE;
+		background-color:$TAN;
+		font-family:serif;
+		margin:12px;
+	}
+	table {
+		width:540px;
+		font-family:monospace;
+		font-size:10px;
+		border-spacing:1px;
+		background-color:$DARK_BLUE;
+	}
+	td {
+		background-color:$TAN;
+		padding:9px 9px 9px 9px;
+	}
+	th {
+		font-family:serif;
+		font-weight:normal;
+		background-color:$DARK_BLUE;
+		font-size:13px;
+		color:white;
+		text-align:left;
+		background-image:url( \"file://localhost/usr/share/httpd/icons/small/rainbow.png\" );
+	}
+	tt {
+		font-family:monospace;
+		text-size:10px;
+	}
+	img {
+		padding:0px 9px 0px 0px;
+	}
+</style>
+</head>
+
+<body>
+
+<h1>$TITLE</h1>
+<p style=\"color:purple;font-family:Comic Sans MS;font-size:13;\">ShOSA example: listing files dropped on an applet</p>
+<h2>File List:</h2>
+<table>
+<th>Last Update: $CDATE</th>" >> $OUTPUT
+
+FILES="$@"
+if [ "$#" == 0 ]; then
+	FILES="/Library"
+fi
+
+for i in $FILES; do
+	if [ -f $i ]; then
+		IMG="<img src=\"file://localhost/usr/share/httpd/icons/small/generic.gif\">";
+	elif [ -d $i ]; then
+		IMG="<img src=\"file://localhost/usr/share/httpd/icons/small/dir.gif\">";
+	fi
+	echo "
+<tr>
+<td>
+	$IMG<a href=\"file://$i\">`basename \"$i\"`</a>
+</td>
+</tr>
+" >> $OUTPUT
+done
+
+echo "</table>
+
+$INFO
+
+</body>
+</html>
+" >> $OUTPUT
+
+/usr/bin/open "file://$OUTPUT"

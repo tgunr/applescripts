@@ -1,0 +1,101 @@
+{\rtf1\mac\ansicpg10000\cocoartf824
+\readonlydoc1{\fonttbl\f0\fswiss\fcharset77 Helvetica;\f1\fswiss\fcharset77 Helvetica-Bold;\f2\fswiss\fcharset77 Helvetica-Oblique;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue255;\red102\green102\blue102;\red17\green17\blue17;
+}
+\margl1440\margr1440\vieww10600\viewh8880\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\f0\fs84 \cf0 Bring Out Yer Dead 
+\fs36  v1.1
+\fs84 \
+
+\fs36 AppleScript for iTunes\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\fs24 \cf0 \
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+\cf0 Find more 
+\f1\b free
+\f0\b0  AppleScripts\
+and info on writing your own\
+at Doug's AppleScripts\
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+{\field{\*\fldinst{HYPERLINK "http://www.dougscripts.com/itunes/"}}{\fldrslt \cf0 http://www.dougscripts.com/itunes/}}\
+\
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\fs36 \cf0 This script applet will allow you to select a "dead" file track in iTunes (designated with the (!)) and attempt to locate a file using 
+\f1\b Spotlight
+\f0\b0  that corresponds to the selected track's Song Name, Artist, and Album, and then allow you to replace the "dead track" with a file from the search results. All tag data is preserved from the original track selected and copied to the newly added track.\
+\
+
+\f1\b Note
+\f0\b0 : I consider this script to be just an experiment using Spotlight technology. iTunes already has the ability to try to locate disassociated files when you double-click a "dead track".\
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li200\fi-20\ql\qnatural
+
+\fs24 \cf0 \
+
+\f1\b This script is {\field{\*\fldinst{HYPERLINK "http://www.dougscripts.com/itunes/itinfo/donate.php"}}{\fldrslt Donationware}}. If you use it and like it, please consider making a donation to support my AppleScripting efforts. {\field{\*\fldinst{HYPERLINK "http://www.dougscripts.com/itunes/itinfo/donate.php"}}{\fldrslt Click here}} for more info.
+\f0\b0\fs36 \
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+\cf0 \
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\f1\b\fs24 \cf2 How to use:
+\f0\b0 \cf0 \
+\
+Put this script in your iTunes Scripts folder. This is located in 
+\f2\i \cf3 user name
+\f0\i0  > Library > iTunes\cf0 . If there is no folder named "Scripts" there, create one and put the script in it. It will then appear in iTunes' Script menu, where you can activate it by clicking on its name.\
+\
+Select a "dead track" in iTunes and run the script. After a few moments, the script will present you with the search results, if any. Select a file from the results and it will be added to iTunes, replacing the original selected track and copying the tag data from the original track to the new track.\
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\fs36 \cf0 \
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\f1\b\fs24 \cf2 Notes:
+\f0\b0 \cf0 \
+\
+\'a5 The expression "Bring Out Yer Dead" is from a classic routine in the film "Monty Python & the Holy Grail" (which is itself based on a description in Daniel DeFoe's "Journal of the Plague Year" for that matter). I hope it does not offend.\
+\
+\'a5 Make sure you have had Spotlight index your computer!\
+\
+\'a5 The very fine {\field{\*\fldinst{HYPERLINK "http://www.kainjow.com/blog/blosxom.cgi/2005/05/04#spodlight"}}{\fldrslt 
+\f1\b Spodlight}} by Kevin Wojniak is an application that will allow Spotlight to index your iPod. Bring Out Yer Dead is able to copy files from your iPod when indexed this way.\
+\
+\'a5 Only one track can be selected at a time. I had thought of allowing several tracks to be selected, but the search results could get messy. Perhaps later.\
+\
+\'a5 Artwork is not preserved by the script. However, if a new file contains artwork, well, there it is.\
+\
+\'a5 I ran into a problem escaping single-quotes and double-quotes in tag names with "quoted form of" for the search routine, so the workaround was to have the script escape these beforehand. I don't know if this is a bug with "quoted form of" in Tiger or if I am Just Going About It The Wrong Way.\
+\
+\'a5 The script will detect if your selected track is a "dead track". It would not be prudent to attempt to re-add a file that already exists in your Music folder since a duplicate file may be created.\
+\
+\
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\fs20 \cf4 v1.1 may 11 2005\
+- fixed problem with double-quotes in Song Name, Album, or Artist tag\
+\
+v1.0 may 6 2005\
+- initial release\
+\
+this doc last updated May 11 05\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\fs24 \cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\f1\b \cf0 If you have any trouble with this script, please email me.
+\f0\b0 \
+My name is Doug Adams\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+{\field{\*\fldinst{HYPERLINK "mailto:dougadams@mac.com"}}{\fldrslt \cf2 \ul \ulc2 dougadams@mac.com}}\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\fs20 \cf0 This software is released "as-is". By using it or modifying it you agree that its author cannot be held responsible or liable for any tragedies resulting thereof. AppleScript, iTunes, and iPod are registered trademarks of {\field{\*\fldinst{HYPERLINK "http://www.apple.com"}}{\fldrslt Apple Computer}}, Inc.
+\fs24 \
+}

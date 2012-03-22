@@ -1,0 +1,124 @@
+if( $#ARGV >= 0 ) {
+
+$m_title = "DroppedOnPerl";
+chomp( $uuid = `uuidgen` );
+$outdir = "/tmp/$uuid";
+system( "mkdir -p $outdir" );
+$outfile="$outdir/$m_title.html";
+
+chomp( $cusr = `id -un` );
+
+# 10.4
+#chomp( $url=`defaults read com.apple.mail | grep -w EmailAddresses | cut -d '"' -f 2` );
+#chomp( $realname = `/usr/bin/niutil -readprop . /users/$cusr realname` );
+
+# 10.5
+chomp( $url=`defaults read com.apple.mail MailAccounts | grep -C2 EmailAddresses | tr -d '\n' | tr -d ' ' | cut -d '(' -f 2 | cut -d ')' -f 1 | tr -d '"'` );
+chomp( $realname = `/usr/bin/dscl . -read /Users/$cusr RealName | tr -d '\n' | cut -d ' ' -f 2-` );
+
+
+chomp( $cdate = `date +'%b %e %Y, %H:%M:%S'` );
+chomp( $year = `date +'%Y'` );
+$copysymbol = sprintf( "%c", 169 );
+
+$tan = '#EEDDCC';
+$dark_blue = '#000088';
+$css = "<style type=\"text/css\">
+	h1 {
+		text-align: left;
+		font-family:serif;
+	}
+	body {
+		color:$dark_blue;
+		background-color:$tan;
+		font-family:serif;
+		margin:12px;
+	}
+	table {
+		width:540px;
+		font-family:monospace;
+		font-size:10px;
+		border-spacing:1px;
+		background-color:$dark_blue;
+	}
+	td {
+		background-color:$tan;
+		padding:9px 9px 9px 9px;
+	}
+	th {
+		font-family:serif;
+		font-weight:normal;
+		background-color:$dark_blue;
+		font-size:13px;
+		color:white;
+		text-align:left;
+		background-image:url( \"file://localhost/usr/share/httpd/icons/small/rainbow.png\" );
+	}
+	tt {
+		font-family:monospace;
+		text-size:10px;
+	}
+	img {
+		padding:0px 9px 0px 0px;
+	}
+</style>";
+
+$contents = "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">
+<html>
+<head>
+<title>$m_title</title>
+<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">
+<meta name=\"description\" content=\"directory listing\">
+$css
+</head>\n\n<body>\n\n
+<h1>$m_title</h1>\n
+<p style=\"color:purple;font-family:Comic Sans MS;font-size:13;\">PerlOSA example: listing files dropped on an applet</p>
+<h2>File List:</h2>
+";
+
+open( DF, ">$outfile" );
+print DF $contents;
+print DF "<table>\n<th>Listing Date: $cdate</th>\n";
+foreach( @ARGV ) {
+	print DF "\n<tr>\n<td>\n";
+	if( -d $_ ) {
+		print DF "<img src=\"file://localhost/usr/share/httpd/icons/small/dir.gif\">";
+	}
+	if( -f $_ ) {
+		print DF "<img src=\"file://localhost/usr/share/httpd/icons/small/generic.gif\">";
+	}
+	$fname = $_;
+	if( $fname ne '/' ) {
+		#chomp( $fname = `basename $_` );
+		$fname = `basename "$_"`;
+	}
+	print DF "<a href=\"file://$_\">$fname</a>";
+	if( -T $_ ) {
+		print DF "<hr>\n";
+		open( TEMP, $_ );
+		print DF "\n<p>";
+		while( defined( $line = <TEMP>) ) {
+			$line =~ s/\&/\&amp;/g;
+			$line =~ s/>/\&gt;/g;
+			$line =~ s/</\&lt;/g;
+			print DF "\n$line<br>\n";
+		}
+		print DF "</p>\n";
+		close( TEMP );
+	}
+	print DF "\n</td>\n</tr>\n";
+}
+print DF "\n</table>\n
+<h3>&sect;</h3>
+<p>
+<tt>For more information contact: <a href=\"mailto:$url\">$realname</a> &lt;$url&gt;</tt>
+</p>
+<h3>&sect;</h3>\n
+<!-- Copyright $copysymbol $year, $realname. All Rights Reserved -->\n
+</body>\n</html>\n";
+close DF;
+
+system( "open file://$outfile" );
+
+}
+

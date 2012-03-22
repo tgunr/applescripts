@@ -1,0 +1,127 @@
+{\rtf1\mac\ansicpg10000\cocoartf824\cocoasubrtf100
+\readonlydoc1{\fonttbl\f0\fswiss\fcharset77 Helvetica;\f1\fswiss\fcharset77 Helvetica-Bold;\f2\fswiss\fcharset77 Helvetica-Oblique;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue255;\red102\green102\blue102;\red17\green17\blue17;
+}
+\margl1440\margr1440\vieww13640\viewh9740\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\f0\fs84 \cf0 List Folder Files Not Added 
+\fs36  v1.0
+\fs84 \
+
+\fs36 AppleScript for iTunes\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\fs24 \cf0 \
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+\cf0 Find more 
+\f1\b free
+\f0\b0  AppleScripts\
+and info on writing your own\
+at Doug's AppleScripts\
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+{\field{\*\fldinst{HYPERLINK "http://www.dougscripts.com/itunes/"}}{\fldrslt \cf0 http://www.dougscripts.com/itunes/}}\
+\
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\fs36 \cf0 This script will create a text file listing the file paths of any audio files which are not in iTunes' database. The default folder searched is your designated "Music" folder, however you can select any folder that may contain audio files at any level.\
+\
+This script relies on Spotlight and thus requires Mac OS X 10.4 or better.\
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li200\fi-20\ql\qnatural
+
+\fs24 \cf0 \
+
+\f1\b This script is {\field{\*\fldinst{HYPERLINK "http://www.dougscripts.com/itunes/itinfo/donate.php"}}{\fldrslt Donationware}}. If you use it and like it, please consider making a donation to support my AppleScripting efforts. {\field{\*\fldinst{HYPERLINK "http://www.dougscripts.com/itunes/itinfo/donate.php"}}{\fldrslt Click here}} for more info.
+\f0\b0\fs36 \
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+\cf0 \
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\f1\b\fs24 \cf2 Installation:
+\f0\b0 \cf0 \
+\
+Place the folder named "List Folder Files" in your iTunes Scripts folder. This is located in 
+\f2\i \cf3 user name
+\f0\i0  > Library > iTunes\cf0 . If there is no folder named "Scripts" there, create one and put the "List Folder Files" folder in it. This folder includes the "List Folder Files Not Added" AppleScript and the "ProgBar" application.\
+\
+(If you already have a copy of "ProgBar", then you can just place the script "List Folder Files Not Added" into your iTunes "Scripts" folder.)\
+\
+"ProgBar" is a small accessory application that provides visual feedback on the searching process. It's use is optional, as described below. "ProgBar" is written by T.J. Mahaffey of {\field{\*\fldinst{HYPERLINK "http://www.sporksoftware.com/"}}{\fldrslt Spork Software}}. Many thanks! \
+\
+
+\f1\b \cf2 How to use:
+\f0\b0 \cf0 \
+\
+You can run the script by selecting it from iTunes' Script menu. Or, you can double-click on its icon in the Finder.\
+\
+\'a5 You will be asked if you want to search your designated "Music" folder or to choose another folder containing audio files. The designated "Music" folder is the one set in iTunes' Advanced Preferences. Any other folder selected will have its complete contents searched for audio files, no matter how deep they may be. So, you 
+\f2\i could
+\f0\i0  select an entire drive.\
+\
+\'a5 You will be asked if you want Spotlight to re-index the selected folder. This will take a little extra time.\
+\
+\'a5 You will be asked if you want to use the "ProgBar" application to display the script's progress. Using "ProgBar" may make the script run longer. However, without it, you will not know how far along the script is proceeding.\
+\
+Once these options have been selected, the script will "walk" the selected folder looking for audio files and will check which are contained in the iTunes database. Those that are not will have their file path's added to a list which will be written to your desktop when the script is finished.\
+\
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\qc\pardirnatural
+\cf0 {{\NeXTGraphic Pasted Graphic.tiff \width3947 \height1880
+}¬}\
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\qc
+
+\f2\i\fs20 \cf0 "ProgBar" displays progress.
+\f0\i0\fs24 \cf0 \
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+\cf0 \
+
+\f1\b \ul PLEASE NOTE
+\f0\b0 : the script takes quite a bit of time to run.\ulnone  In my experiments on a Music folder containing 4002 audio files it took about 40 minutes to check each file (I guess you could estimate 10 minutes per thousand files). It took 
+\f2\i just slightly 
+\f0\i0 longer using "ProgBar". However, it is extremely thorough and accurate and generated no false negatives. The speed of your computer is also a factor. Your mileage will vary accordingly. It also uses up a lot of processing power. The best time to run it would be when you are not doing anything else intensive on your computer. Like, when you are having dinner or when you go out for your morning walk (which I encourage you do anyway).\
+\
+I can't imagine why you'd want to run this script more than once every few months, so the time it takes to run may be a moot issue. You tell me.\
+\
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\f1\b \cf2 What It Does:\
+
+\f0\b0 \cf0 \
+The script uses Spotlight UNIX commands to create a list of "Sound" files contained in the selected folder. It gets the Song Name, Artist, Modification Date, and Size meta-data tags of each file. It uses Song Name and Artist for display purposes in "ProgBar". It uses the Size and Modification Date in a perl search (m//) of the iTunes Music Library.xml file. When there is no match for the Size and Modification Date it can be safely assumed that the file is not in iTunes' database. The file path is then written out to the eventual text file.\
+\
+
+\f1\b \cf2 Notes:
+\f0\b0 \cf0 \
+\
+\'a5 You can cancel the script by selecting it to bring it frontmost and holding the "esc" key. Any files not found in iTunes up to that point will be written to the text file on your desktop. (If you quit "ProgBar" it will just re-start as long as the script is running.)\
+\
+\'a5 To bring "ProgBar" to the front, just click on its icon in the Dock.\
+\
+\'a5 To make sure your iTunes database is current, quit iTunes before using the script. iTunes will re-write its database. Also, iTunes needn't be running to use the script. In this case, you won't be able to run the script from iTunes' Scripts menu, so double-click on it in the Finder to run it.\
+\
+\'a5 A reasonable question to ask is "Why doesn't the script add the non-added files it finds to iTunes?" My thought on this is that maybe some of those files aren't in iTunes for a reason. You can decide which files you want to re-add (or delete, for that matter).\
+\
+\'a5 I am indebted to Glenn McDonald for providing a perl routine which examines the iTunes database.\
+\
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\fs20 \cf4 v1.0 jun 3 2005\
+- initial release\
+\
+this doc last updated June 3 05\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\fs24 \cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\f1\b \cf0 If you have any trouble with this script, please email me.
+\f0\b0 \
+My name is Doug Adams\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+{\field{\*\fldinst{HYPERLINK "mailto:dougadams@mac.com"}}{\fldrslt \cf2 \ul \ulc2 dougadams@mac.com}}\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\fs20 \cf0 This software is released "as-is". By using it or modifying it you agree that its author cannot be held responsible or liable for any tragedies resulting thereof. AppleScript, iTunes, and iPod are registered trademarks of {\field{\*\fldinst{HYPERLINK "http://www.apple.com"}}{\fldrslt Apple Computer}}, Inc.
+\fs24 \
+}

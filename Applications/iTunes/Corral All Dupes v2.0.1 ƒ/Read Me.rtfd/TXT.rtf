@@ -1,0 +1,221 @@
+{\rtf1\mac\ansicpg10000\cocoartf824
+\readonlydoc1{\fonttbl\f0\fswiss\fcharset77 Helvetica;\f1\fswiss\fcharset77 Helvetica-Bold;\f2\fswiss\fcharset77 Helvetica-Oblique;
+\f3\fswiss\fcharset77 Helvetica-BoldOblique;\f4\fnil\fcharset77 Verdana-Italic;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue255;\red102\green102\blue102;\red255\green0\blue0;
+\red17\green17\blue17;\red76\green78\blue78;}
+\margl1440\margr1440\vieww10880\viewh9020\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\f0\fs84 \cf0 Corral All Dupes
+\fs36  v2.0.1
+\fs84 \
+
+\fs36 AppleScript for iTunes\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\fs24 \cf0 \
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+\cf0 Find more 
+\f1\b free
+\f0\b0  AppleScripts\
+and info on writing your own\
+at Doug's AppleScripts\
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+{\field{\*\fldinst{HYPERLINK "http://www.dougscripts.com/itunes/"}}{\fldrslt \cf0 http://www.dougscripts.com/itunes/}}\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\fs36 \cf0 This script traverses your choice of the main iTunes library 
+\f1\b or
+\f0\b0  iPod library searching for tracks with the same 
+\f1\b Song Name
+\f0\b0  and 
+\f1\b Size
+\f0\b0  and copies them to a "Dupes" playlist.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\fs24 \cf0 \
+As an added feature, this download contains 
+\f1\b ProgBar
+\f0\b0  (v0.2), a small AppleScript application that, when 
+\f1\b optionally
+\f0\b0  installed, will provide visual feedback on the searching process, like so:\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+\cf0 {{\NeXTGraphic Pasted Graphic 1.tiff \width5420 \height2580
+}¬}\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+\cf0 \
+\
+ProgBar is written by T.J. Mahaffey of {\field{\*\fldinst{HYPERLINK "http://www.sporksoftware.com/"}}{\fldrslt Spork Software}}. Many thanks!\
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li200\fi-20\ql\qnatural
+\cf0 \
+
+\f1\b This script is {\field{\*\fldinst{HYPERLINK "http://www.dougscripts.com/itunes/itinfo/donate.php"}}{\fldrslt Donationware}}. If you use it and like it, please consider making a donation to support my AppleScripting efforts. {\field{\*\fldinst{HYPERLINK "http://www.dougscripts.com/itunes/itinfo/donate.php"}}{\fldrslt Click here}} for more info.
+\f0\b0\fs36 \
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+\cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\f1\b\fs24 \cf2 How to use:
+\f0\b0 \cf0 \
+\
+Put the Corral All Dupes script and, 
+\f1\b optionally
+\f0\b0 , the ProgBar application in your iTunes Scripts folder. This is located in 
+\f2\i \cf3 home > Library > iTunes
+\f0\i0 \cf0 . If there is no folder named "Scripts" there, create one and then put the files in it. Corral All Dupes will then appear in iTunes' Scripts Menu, where you can select it by clicking on its name. \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\f1\b \cf4 Hey
+\f0\b0 \cf0 : Using ProgBar is completely 
+\f1\b optional
+\f0\b0  and is not required for Corral All Dupes to operate, but if ProgBar is 
+\f2\i not
+\f0\i0  placed inside the iTunes "Scripts" folder it will 
+\f2\i definetly
+\f0\i0  not be used. (Note: when installed ProgBar will appear in iTunes' Script menu but cannot be activated from it.)\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\f1\b \cf0 Make sure you have plenty of time before running the script. While this version of the script is 
+\f3\i much
+\f1\i0  faster than previous versions, the time it takes to run is contingent on the number of tracks in your library. This can amount to quite a while...hours, in fact. During this time iTunes may not be totally accessible. Using iTunes may also slow down "Corral".\
+\
+For best results, my advice is to start it a-runnin' and go watch a DVD, play a round of golf, or refinish your floors. Don't expect "Corral" to be completed for several hours.
+\f0\b0 \
+\
+Run the script. After an introductory message, it will proceed. If you have an iPod mounted, you will be given the choice of looking for dupes on the iPod or in iTunes' library.\
+\
+If a "Dupes" playlist already exists it will be deleted when this scripts runs.\
+\
+After the tracks have been assembled in the "Dupes" playlist, 
+\f1\b you
+\f0\b0  can decide which can stay and which can go.\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\f1\b \cf2 Using ProgBar:
+\f0\b0 \cf0 \
+\
+ProgBar is a handy (and free!) script application that allows regular scripts to display a progress bar in a small window. (While I have already configured ProgBar to work with Corral All Dupes, I encourage 'scripters to try some of ProgBar's other window options and settings. It's very flexible.)\
+\
+If ProgBar has been installed in your iTunes "Scripts" folder, it will open and initialize when you run Corral All Dupes. You can periodically check the progress of "Corral" by bringing the ProgBar window to the front; just click ProgBar's icon in the Dock. \
+\
+When the script has completed its mission, ProgBar will also quit.\
+\
+
+\f1\b \cf2 Quitting:
+\f0\b0 \cf0 \
+\
+\'a5 If you want to abort Corral All Dupes before it is finished, click on its icon in the Dock so that it is the frontmost application, then click and hold 
+\f1\b Command-period
+\f0\b0  until it quits. If ProgBar is running it also will quit. (If this method fails\'d0although it shouldn't\'d0then you must Force Quit Corral All Dupes and manually Quit ProgBar.) Any duplicate tracks found thus far will be left in the "Dupes" playlist.\
+\
+\'a5 You will know the script has finished when you no longer see it's icon in the Dock. I could have included an alert of some kind, but since you will probably be doing something else when the script concludes I thought it inconsiderate to disturb the tranquility.\
+\
+
+\f1\b \cf2 Peculiarities (geeky stuff):
+\f0\b0 \cf0 \
+\
+Previous versions of "Corral" spent an enormous amount of processing time checking for any tracks with the same name and size. This version of the script is different. It searches for similarly named tracks first. Then whenever two or more same-named tracks are found, the size-in-bytes of those tracks are checked. This is quite speedy. \
+\
+However, the search routine of Corral All Dupes works just like the search bar in iTunes. Therefore, if the search is on for a song called "Love" then every song with the word "love" in the title will be considered a match. This can create a rather large list of songs whose sizes have to be checked. Even so, the overall time used to find duplicates is still 
+\f2\i much
+\f0\i0  faster than earlier versions.\
+\
+Be aware that the 
+\f1\b case
+\f0\b0  of song names is ignored. "Love" is the same as "love" or "LOVE" or "lOvE". Still, unless two or more tracks are the same size-in-bytes, they are not matches.\
+\
+
+\f1\b \cf2 Tips for Dupes:
+\f0\b0 \cf0 \
+\
+\'a5 Double-click on a playlist's name in the Source pane to open it in its own window. I find this immeasurably helpful when housecleaning.\
+\
+\'a5 To delete a track and its file completely from the iTunes or iPod library (including removal from any playlists it's assigned to), select it in a playlist and press 
+\f1\b Option-Delete
+\f0\b0 . (See "Keyboard Shortcuts" under the Help menu in iTunes.)\
+\
+\'a5 iTunes only (not iPod): Remember that two or more tracks can be spawned from the same file, so you will want to compare their files. Select a track and choose 
+\f1\b Show Song File
+\f0\b0  in the File menu (or click 
+\f1\b Command-R
+\f0\b0 \cf5 )\cf0  to view its file in the Finder. Alternatively, select a track and choose 
+\f1\b Get Info
+\f0\b0  in the File menu (or click 
+\f1\b Command-I
+\f0\b0 ) to open it's "Get Info" window. Click the 
+\f1\b Summary
+\f0\b0  tab and at the bottom you will see "Where" the file for the track is located.\
+\
+\'a5 If you happen to see only one copy of a track in the "Dupes" playlist it probably means that a "dead" duplicate of it exists; that is, there may be one or more copies of that track whose file(s) have been deleted or removed from your computer. This is a separate issue that can be remedied with the script {\field{\*\fldinst{HYPERLINK "http://www.malcolmadams.com/itunes/scripts/ss.php?sp=removedeadsuper"}}{\fldrslt Super Remove Dead Tracks}}.\
+\
+\'a5 For more precise control in a duplicates search, try {\field{\*\fldinst{HYPERLINK "http://www.malcolmadams.com/itunes/scripts/ss.php?sp=wrangletracks"}}{\fldrslt Wrangle Same-Named Tracks}}: 
+\f2\i "\cf5 This script looks for other tracks that have the same name as the selected track and copies them to a new playlist. If no track is selected, you can enter your own text to search track names for."
+\f0\i0 \cf0 \
+\
+
+\f1\b \cf2 Catch-22:\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\f0\b0 \cf0 \
+Don't forget to delete the "Dupes" playlist when you are finished!\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\f1\b \cf0 Notes:
+\f0\b0 \
+This script is only as good as your track information.\
+\
+
+\f1\b Aphorism:
+\f0\b0 \
+There's no way for AppleScript to determine if any two tracks 
+\f2\i sound
+\f0\i0  the same. Only you can do this. \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\fs20 \cf5 \CocoaLigature0 v2.0.1 september 14 2004\
+- add timeout block to 'get tracks of library' routine  (thanks, dfbills)\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+\cf5 \CocoaLigature1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+\cf5 \CocoaLigature0 v2.0 september 10 2004\
+-- changed the methodology of determining dupes (search for duplicate names first, 
+\f2\i then
+\f0\i0  filter like-sizes)\
+-- uses ProgBar  v0.2 (if installed in iTunes Scripts folder). From Spork Software http://www.sporksoftware.com
+\f4\i\fs18 \cf6 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\f0\i0\fs20 \cf0 \CocoaLigature1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+\cf0 \CocoaLigature0 v1.2 september 3 2004\
+-- option to search iPod for dupes, if iPod exists\
+-- uses name and size of track to determine "duplicateness"; earlier version used album and artist as well.\
+\
+v1.0 february 29, 2004 (leap day!)\
+-- initial release\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+\cf0 \CocoaLigature1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\f2\i \cf5 last updated September 12 2004
+\f0\i0\fs24 \cf0 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\f1\b \cf0 If you have any trouble with this script, please email me.
+\f0\b0 \
+My name is Doug Adams\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+{\field{\*\fldinst{HYPERLINK "mailto:dougadams@mac.com"}}{\fldrslt \cf2 \ul \ulc2 dougadams@mac.com}}\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\fs20 \cf0 This software is released "as-is". By using it or modifying it you agree that its author cannot be held responsible or liable for any tragedies resulting thereof. AppleScript, iTunes, and iPod are registered trademarks of {\field{\*\fldinst{HYPERLINK "http://www.apple.com"}}{\fldrslt Apple Computer}}, Inc.
+\fs24 \
+}

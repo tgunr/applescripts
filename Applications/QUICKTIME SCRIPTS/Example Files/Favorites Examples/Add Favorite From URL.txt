@@ -1,0 +1,1 @@
+tell application "QuickTime Player"	launch	activate	try		make favorite with data "rtsp://myserver/thisclip.mov"	end tryend tell

@@ -1,0 +1,153 @@
+import os, sys, site;
+import time;
+from stat import *;
+
+m_title = "DroppedOnPython";
+tan = '#EEDDCC';
+dark_blue = '#000088';
+
+
+def GetFullUserName(theShortName):
+	pfile = os.popen( "/usr/bin/dscl . -read /Users/" + theShortName + " RealName | tr -d '\n' | cut -d ' ' -f 2-" );
+	fullname = pfile.read( 64 ).strip();
+	pfile.close();
+	return fullname;
+
+
+def GetUserEmailAddress():
+	em = os.environ['OSABRIDGE_SCRIPTS_FOLDER'] + '/emadds.sh';
+	pfile = os.popen( em );
+	email = pfile.read( 256 ).strip();
+	pfile.close();
+	return email;
+
+
+def OSX1040GetFullUserName(theShortName):
+	pfile = os.popen( "/usr/bin/niutil -readprop . /users/" + theShortName + " realname" );
+	fullname = pfile.read( 64 ).strip();
+	pfile.close();
+	return fullname;
+
+
+def OSX1040GetUserEmailAddress():
+	pfile = os.popen( "defaults read com.apple.mail | grep -w EmailAddresses | cut -d '\"' -f 2" );
+	email = pfile.read( 256 ).strip();
+	pfile.close();
+	return email;
+
+
+def GetImageURL( theFile ):
+	mode = os.stat( theFile )[ST_MODE];
+	if S_ISDIR( mode ):
+		return '<img src="file://localhost/usr/share/httpd/icons/small/dir.gif">';
+	elif S_ISREG( mode ):
+		return '<img src="file://localhost/usr/share/httpd/icons/small/generic.gif">';
+	else:
+		return '<img src="file://localhost/usr/share/httpd/icons/small/unknown.gif">';
+
+
+css = """<style type="text/css">
+	h1 {
+		text-align: left;
+		font-family:serif;
+	}
+	body {
+		color:""" + dark_blue + """;
+		background-color:""" + tan + """;
+		font-family:serif;
+		margin:12px;
+	}
+	table {
+		width:540px;
+		font-family:monospace;
+		font-size:10px;
+		border-spacing:1px;
+		background-color:""" + dark_blue + """;
+	}
+	td {
+		background-color:""" + tan + """;
+		padding:9px 9px 9px 9px;
+	}
+	th {
+		font-family:serif;
+		font-weight:normal;
+		background-color:""" + dark_blue + """;
+		font-size:13px;
+		color:white;
+		text-align:left;
+		background-image:url( \"file://localhost/usr/share/httpd/icons/small/rainbow.png\" );
+	}
+	tt {
+		font-family:monospace;
+		text-size:10px;
+	}
+	img {
+		padding:0px 9px 0px 0px;
+	}
+</style>"""
+
+contents = """<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">
+<html>
+
+<head>
+<title>""" + m_title + """</title>
+<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">
+<meta name=\"description\" content=\"directory listing\">
+""" + css + """
+</head>
+
+<body>
+
+<h1>""" + m_title + """</h1>
+
+<p style=\"color:purple;font-family:Comic Sans MS;font-size:13;\">PythonOSA example: listing files dropped on an applet</p>
+
+<h2>File List:</h2>
+
+<table>
+
+<th>""" + "Date: " + time.strftime( '%c' ) + """</th>
+"""
+
+for arg in sys.argv:
+	if arg != sys.argv[0]:
+		img = GetImageURL( arg );
+		fname = "";
+		if arg == '/':
+			fname = arg;
+		else:
+			fname = os.path.basename( arg );
+		contents += "\n<tr>\n<td>\n\t" + img + "<a href=\"file://" + arg + "\">" + fname + "</a>\n</td>\n</tr>\n";
+
+mail_url = GetUserEmailAddress();
+fullname = GetFullUserName( os.environ['USER'] );
+copysymbol = u'©'.encode( 'macRoman' );
+
+contents += """
+</table>
+
+<h3>&sect;</h3>
+<tt>For more information contact: <a href=mailto:""" + mail_url +""">""" + fullname + """</a> &lt;""" + mail_url + """&gt;</tt>
+<h3>&sect;</h3>
+
+<!-- Copyright """ + copysymbol + """ """ + time.strftime( '%Y' ) + """, """ + fullname + """. All Rights Reserved. -->
+
+</body>
+</html>
+"""
+
+# put outfile in unique id directory in /tmp
+ufile = os.popen( "uuidgen" );
+m_uuid = ufile.read( 64 ).strip();
+ufile.close();
+
+odir = "/tmp/" + m_uuid;
+ocmd = "mkdir -p " + odir;
+os.system( ocmd );
+ofile = odir + "/" + m_title + ".html";
+html = open( ofile, 'w' );
+html.write( contents );
+html.close();
+
+rbrowser = 'open ' + 'file://' + ofile
+os.system( rbrowser )

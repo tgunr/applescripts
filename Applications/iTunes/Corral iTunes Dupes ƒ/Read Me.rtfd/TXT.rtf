@@ -1,0 +1,177 @@
+{\rtf1\mac\ansicpg10000\cocoartf824
+\readonlydoc1{\fonttbl\f0\fswiss\fcharset77 Helvetica;\f1\fswiss\fcharset77 Helvetica-Bold;\f2\fswiss\fcharset77 Helvetica-Oblique;
+\f3\fnil\fcharset77 Verdana;\f4\fnil\fcharset77 Verdana-Italic;}
+{\colortbl;\red255\green255\blue255;\red17\green17\blue17;\red0\green0\blue255;\red102\green102\blue102;
+\red76\green78\blue78;\red255\green0\blue0;\red0\green128\blue0;}
+\margl1440\margr1440\vieww10600\viewh8880\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\f0\fs84 \cf0 Corral iTunes Dupes
+\fs36  v1.0
+\fs84 \
+
+\fs36 AppleScript for iTunes\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\fs24 \cf0 \
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+\cf0 Find more 
+\f1\b free
+\f0\b0  AppleScripts\
+and info on writing your own\
+at Doug's AppleScripts\
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+{\field{\*\fldinst{HYPERLINK "http://www.dougscripts.com/itunes/"}}{\fldrslt \cf0 http://www.dougscripts.com/itunes/}}\
+\
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\fs36 \cf0 This script uses Perl commands to 
+\f2\i briskly
+\f0\i0  check the "iTunes Music Library.xml" file for duplicate tracks (based on user-selected criteria) then assembles those tracks into a discreet "Dupes" playlist. Once corralled, you can decide which can stay or go.\
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li200\fi-20\ql\qnatural
+
+\fs24 \cf0 \
+
+\f1\b This script is {\field{\*\fldinst{HYPERLINK "http://www.dougscripts.com/itunes/itinfo/donate.php"}}{\fldrslt Donationware}}. If you use it and like it, please consider making a donation to support my AppleScripting efforts. {\field{\*\fldinst{HYPERLINK "http://www.dougscripts.com/itunes/itinfo/donate.php"}}{\fldrslt Click here}} for more info.
+\f0\b0\fs36 \
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+\cf0 \
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\f1\b\fs24 \cf2 I am indebted to Charlie Strauss and his extraordinary skill as a Perl programmer for the Perl routines at the heart of this AppleScript.
+\f0\b0 \
+\
+This script is based on another script of mine called "Corral All Dupes", but is 
+\f2\i vastly
+\f0\i0  improved with the addition of the Perl routines.\
+\
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\f1\b \cf3 How to use:
+\f0\b0 \cf0 \
+\
+Put this script in your iTunes Scripts folder. This is located in \cf4 home > Library > iTunes\cf0 . If there is no folder named "Scripts" there, create one and put the script in it. It will then appear in iTunes' Script Menu, where you can select it by clicking on its name.\
+\
+This script is a self-contained AppleScript application\'d0or 
+\f2\i applet
+\f0\i0 \'d0that can be placed anywhere on your computer and activated by double-clicking its icon. However it is probably most easily accessed from the iTunes Script me\cf2 nu.\
+\
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li560\fi-20\ql\qnatural
+\cf2 \'a5 This s\cf0 cript reads the "iTunes Music Library.xml" file located in your 
+\f2\i \cf4 home > Music > iTunes
+\f0\i0 \cf0  folder. iTunes updates this file whenever it is quit. To make sure that everything is up-to-date, you may want to quit and then re-start iTunes before running the script.\
+\
+(Also, if you have re-located this folder, see "Customizing" below for pointers on editing the script.)\
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+\cf0 \
+\
+Run the script, either be selecting it in the iTunes Script menu or by double-clicking on it in the Finder. Select the criteria which you want to use to determine duplicate tracks:\
+\
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+\cf0 {{\NeXTGraphic Pasted Graphic 1.tiff \width4960 \height4120
+}¬}\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+\cf0 \
+\
+Remember that the more criteria you select, the more refined your search will be. On the other hand, just selecting "Artist" and "Bit Rate", for example, will probably just be a waste of your time.\
+\
+After a 
+\f2\i few moments
+\f0\i0  you will be notified if any duplicate tracks were discovered. If so, they will be copied to a newly created playlist called "Dupes". This is perhaps the part of the operation that takes the longest. So that you can see that progress is being made, the "Dupes" playlist is selected in iTunes and you will be able to see it filling up with tracks.\
+\
+If iTunes is the frontmost application when the job is done, a dialog box will tell you the script is finished and the applet will quit. Otherwise, the applet quits silently.\
+\
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\f1\b \cf3 Stopping Operation:
+\f0\b0 \cf0 \
+\
+If you feel the script is taking too much time, you can select its icon in the Dock, making it the frontmost application, and then press 
+\f1\b Command-period
+\f0\b0 . This will abort the script. You can always run it another time.\
+\
+
+\f1\b \cf3 Customizing:
+\f0\b0 \cf0 \
+\
+There are a few things you can add to or change about the script. \
+\
+Open the script in Script Editor by using Script Editor's "Open..." command in the File menu. Look for this section of code near the top of the script:\
+\
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\f3\fs18 \cf0 \CocoaLigature0 --
+\f4\i \cf5  ================================================
+\f3\i0 \cf0 \
+\
+(*
+\f4\i \cf5 \
+If the path to your Music/iTunes folder is not relative to home,\
+change it here! (note double-slash escape characters in file's name)\
+
+\f3\i0 \cf0 *)\
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+\cf6 property\cf0  \cf7 path_to_xml\cf0  : "~/Music/iTunes/iTunes\\\\ Music\\\\ Library.xml"\
+\
+(*
+\f4\i \cf5 \
+You can change the name of the playlist that is created if it conflicts\
+with your playlist schema\
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\f3\i0 \cf0 *)\
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+\cf6 property\cf0  \cf7 dupe_playlist_name\cf0  : "Dupes"\
+\
+(*
+\f4\i \cf5 \
+You can use additional criteria in this list; they must appear as they do in the xml file!\
+"Total Time"\
+"Comments"\
+"Play Count"\
+"Rating"\
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\f3\i0 \cf0 *)\
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+\cf6 property\cf0  \cf7 initCriteria\cf0  : \{"Name", "Artist", "Album", "Size", "Kind", "Bit Rate"\}\
+\
+--
+\f4\i \cf5  ================================================
+\f3\i0 \cf0 \
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\f0\fs24 \cf0 \CocoaLigature1 \
+I believe this is self-explanatory for users who feel confident about making modifications.\
+\
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\f1\b \cf3 More to Come:
+\f0\b0 \cf0 \
+\
+There is more to do with this script, but both Charlie and I would be interested in your feedback.\
+\
+Good luck! Let me know if you have any difficulties!\
+\
+\
+\pard\tx160\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\fs20 \cf2 v1.0 September 20 2004\
+- initial release\
+\
+this doc last updated September 20 2004\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\fs24 \cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\f1\b \cf0 If you have any trouble with this script, please email me.
+\f0\b0 \
+My name is Doug Adams\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+{\field{\*\fldinst{HYPERLINK "mailto:dougadams@mac.com"}}{\fldrslt \cf3 \ul \ulc3 dougadams@mac.com}}\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\li180\ql\qnatural
+
+\fs20 \cf0 This software is released "as-is". By using it or modifying it you agree that its author cannot be held responsible or liable for any tragedies resulting thereof. AppleScript, iTunes, and iPod are registered trademarks of {\field{\*\fldinst{HYPERLINK "http://www.apple.com"}}{\fldrslt Apple Computer}}, Inc.
+\fs24 \
+}

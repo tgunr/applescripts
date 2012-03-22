@@ -1,0 +1,293 @@
+bplist00Ò_WebMainResource_WebSubresourcesÔ	
+^WebResourceURL_WebResourceTextEncodingName_WebResourceMIMEType_WebResourceData_file:///index.htmlUUTF-8Ytext/htmlO;†<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>OSA Components Release Notes</title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="949">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 21.0px 0.0px; font: 26.0px Georgia; color: #210044}
+    p.p2 {margin: 0.0px 0.0px 13.0px 0.0px; font: 13.0px Trebuchet MS; color: #000033}
+    p.p3 {margin: 0.0px 0.0px 8.0px 0.0px; font: 17.0px Trebuchet MS; color: #000033; min-height: 20.0px}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 21.0px Georgia; color: #210044}
+    p.p5 {margin: 0.0px 0.0px 17.0px 0.0px; font: 17.0px Trebuchet MS; color: #000033}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px Trebuchet MS; color: #000033}
+    p.p7 {margin: 0.0px 0.0px 17.0px 0.0px; font: 17.0px Trebuchet MS; color: #0000f0}
+    p.p8 {margin: 0.0px 0.0px 17.0px 0.0px; font: 17.0px Trebuchet MS; color: #000033; min-height: 20.0px}
+    p.p9 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px Trebuchet MS; color: #000033; min-height: 19.0px}
+    p.p10 {margin: 0.0px 0.0px 0.0px 0.0px; font: 17.0px Trebuchet MS; color: #000033}
+    p.p11 {margin: 0.0px 0.0px 0.0px 0.0px; font: 15.0px Courier; color: #000081}
+    p.p12 {margin: 0.0px 0.0px 0.0px 0.0px; font: 17.0px Trebuchet MS; color: #000033; min-height: 20.0px}
+    p.p13 {margin: 0.0px 0.0px 17.0px 0.0px; font: 17.0px Zapfino; color: #000033}
+    p.p14 {margin: 0.0px 0.0px 28.0px 0.0px; font: 28.0px Trebuchet MS; color: #000033}
+    p.p15 {margin: 0.0px 0.0px 0.0px 0.0px; font: 17.0px Courier; color: #000033}
+    p.p16 {margin: 0.0px 0.0px 0.0px 0.0px; font: 17.0px Courier; color: #000033; min-height: 20.0px}
+    span.s1 {text-decoration: underline ; color: #0000f0}
+    span.s2 {color: #0000f0}
+    span.s3 {font: 15.0px Courier; color: #000081}
+    span.s4 {text-decoration: underline}
+    table.t1 {background-color: #dddddd; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000081 #000081 #000081 #000081}
+    td.td1 {width: 231.0px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 2.0px 2.0px 2.0px 2.0px}
+    td.td2 {width: 207.0px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 2.0px 2.0px 2.0px 2.0px}
+    td.td3 {width: 198.0px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 2.0px 2.0px 2.0px 2.0px}
+    td.td4 {width: 229.0px; margin: 0.5px 0.5px 0.5px 0.5px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #ffffff #ffffff #ffffff #ffffff; padding: 2.0px 2.0px 13.0px 2.0px}
+    td.td5 {width: 205.0px; margin: 0.5px 0.5px 0.5px 0.5px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #ffffff #ffffff #ffffff #ffffff; padding: 2.0px 2.0px 13.0px 2.0px}
+    td.td6 {width: 196.0px; margin: 0.5px 0.5px 0.5px 0.5px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #ffffff #ffffff #ffffff #ffffff; padding: 2.0px 2.0px 13.0px 2.0px}
+    ol.ol1 {list-style-type: decimal}
+  </style>
+</head>
+<body>
+<h2 style="margin: 0.0px 0.0px 21.0px 0.0px; font: 26.0px Georgia; color: #210044"><b>OSA Components Release Notes</b></h2>
+<h3 style="margin: 0.0px 0.0px 13.0px 0.0px; font: 13.0px Trebuchet MS; color: #000033"><b>Version: Â 1.2.1</b></h3>
+<p class="p3"><br></p>
+<p class="p4"><b>Requirements:</b></p>
+<p class="p5">Mac OS X 10.4 minimum</p>
+<p class="p4"><b>Introduction:</b></p>
+<p class="p5">The OSA components included in this release enable scripting languages like <a href="x-man-page://perl"><span class="s1"><b>Perl</b></span></a>, <a href="x-man-page://php"><span class="s1"><b>PHP</b></span></a>, <a href="x-man-page://python"><span class="s1"><b>Python</b></span></a>, <a href="x-man-page://ruby"><span class="s1"><b>Ruby</b></span></a>, <a href="x-man-page://sh"><span class="s1"><b>sh</b></span></a>, and <a href="x-man-page://n/Tcl"><span class="s1"><b>Tcl</b></span></a> to work in the OSA environment at peer level with AppleScript. As such, scripts in any of the supported languages can be saved in various formats including scripts (.scpt), script bundles (.scptd), and application bundles (.app). They may be run in all the usual circumstances such as from a script editor application, from the Scripts menu on the main menu bar, or by using 'osascript' in Terminal.</p>
+<p class="p5">When saved as applets or droplets, they may be double-clicked to run or process file objects dropped on them just as similar applications using the AppleScript language. When saved as scripts, or script bundles, they may run by applications that have scripting support.</p>
+<p class="p5">A new feature in this release is that scripts in the supported languages are now able to be used as rules for Apple's <b>Mail</b> application.</p>
+<p class="p5">The examples included in this distribution do not purport to be tutorials or language showcases. Their intent is merely to provide convenient double-clickable starting points. One thing to note is that if you are learning one of these more or less shell-oriented languages, their viability in the OSA environment supported by the Script Editor and Script Debugger applications can provide you with a more pleasant and convenient environment to work with than in Terminal.</p>
+<p class="p4"><b>Translations:</b></p>
+<p class="p6">Â Â <a href="http://babelfish.altavista.com/babelfish/tr?doit=done&amp;url=http://homepage.mac.com/philip_aker/index.html&amp;lp=en_fr"><span class="s2"><b></b></span></a> Â Â <a href="http://babelfish.altavista.com/babelfish/tr?doit=done&amp;url=http://homepage.mac.com/philip_aker/index.html&amp;lp=en_de"><span class="s2"><b></b></span></a> Â Â <a href="http://babelfish.altavista.com/babelfish/tr?doit=done&amp;url=http://homepage.mac.com/philip_aker/index.html&amp;lp=en_it"><span class="s2"><b></b></span></a> Â Â <a href="http://babelfish.altavista.com/babelfish/tr?doit=done&amp;url=http://homepage.mac.com/philip_aker/index.html&amp;lp=en_ja"><span class="s2"><b></b></span></a> Â Â <a href="http://babelfish.altavista.com/babelfish/tr?doit=done&amp;url=http://homepage.mac.com/philip_aker/index.html&amp;lp=en_pt"><span class="s2"><b></b></span></a> Â Â <a href="http://babelfish.altavista.com/babelfish/tr?doit=done&amp;url=http://homepage.mac.com/philip_aker/index.html&amp;lp=en_es"><span class="s2"><b></b></span></a></p>
+<p class="p4"><b>Installation:</b></p>
+<p class="p5">To ensure a successful installation:</p>
+<ol class="ol1">
+  <li style="margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px Trebuchet MS; color: #000033">Quit any active OSA script editors and any applications or processes which may be using previous versions of these components.</li>
+  <li style="margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px Trebuchet MS; color: #000033">Decide whether to place the new OSA components in the <span class="s3"><b>/Library/Components</b></span> or <span class="s3"><b>~/Library/Components</b></span> folder of your startup disk. Normally you'll want to install them in the <span class="s3"><b>~/Library/Components</b></span> folder as administrator privileges are not required.</li>
+  <li style="margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px Trebuchet MS; color: #000033">If the designated Library folder does not exist, <i>drag the Components folder from the install disk to the designated Library folder</i>.<br>
+If the designated Library folder already exists, <i>trash the components which are to be replaced, then drag the new components from the Components folder of the install disk into it</i>.</li>
+  <li style="margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px Trebuchet MS; color: #000033">Restart (optional but recommended).</li>
+</ol>
+<p class="p4"><b>License:</b></p>
+<p class="p5">These OSA components are for personal non-profit use only and you must agree to the conditions of the included <a href="file:///Volumes/indigo/Code/Frameworks/OSABridge/Documentation/OSABridgeLicense.pdf"><span class="s1"><b>OSABridgeLicense.pdf</b></span></a> file to use them. Other licenses at reasonable fees are available.</p>
+<p class="p4"><b>Download:</b></p>
+<p class="p7"><span class="s4"><a href="http://www.vcn.bc.ca/~philip/osa/dl/OSAComponents1050_121.dmg"><b>OSAComponents 1.2.1</b></a></span></p>
+<p class="p4"><b>Usage:</b></p>
+<p class="p5">To use one of these languages in Apple's <b>Script Editor</b> application, choose the language from a window's Navigation bar popup menu:</p>
+<p class="p5"><img src="file:///choice.png" alt="choice.png"></p>
+<p class="p5">A similar facility is available in Late Night Software's <a href="http://www.latenightsw.com/"><span class="s1"><b>Script Debugger</b></span></a> application.<br>
+Once a language is selected, type in your script. Edit, run and save as usual.</p>
+<p class="p5">Look in the <b>ExampleDroplets</b> and <b>ExampleMailRules</b> folders in the distribution for simple examples in each supported language.</p>
+<p class="p8"><br></p>
+<p class="p6"><b>Language map for supported components</b></p>
+<p class="p9"><br></p>
+<table cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p6"><b>Component Name</b></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p6"><b>Language Name</b></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p6"><b>Language Code</b></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td4">
+        <p class="p10">LuaOSA</p>
+      </td>
+      <td valign="top" class="td5">
+        <p class="p10">lua</p>
+      </td>
+      <td valign="top" class="td6">
+        <p class="p10">'Luau'</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td4">
+        <p class="p10">PerlOSA</p>
+      </td>
+      <td valign="top" class="td5">
+        <p class="p10">perl</p>
+      </td>
+      <td valign="top" class="td6">
+        <p class="p10">'PLSA'</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td4">
+        <p class="p10">PHPOSA</p>
+      </td>
+      <td valign="top" class="td5">
+        <p class="p10">php</p>
+      </td>
+      <td valign="top" class="td6">
+        <p class="p10">'_PHP'</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td4">
+        <p class="p10">PythonOSA</p>
+      </td>
+      <td valign="top" class="td5">
+        <p class="p10">python</p>
+      </td>
+      <td valign="top" class="td6">
+        <p class="p10">'Py-c'</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td4">
+        <p class="p10">RubyOSA</p>
+      </td>
+      <td valign="top" class="td5">
+        <p class="p10">ruby</p>
+      </td>
+      <td valign="top" class="td6">
+        <p class="p10">'RBSA'</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td4">
+        <p class="p10">ShOSA</p>
+      </td>
+      <td valign="top" class="td5">
+        <p class="p10">sh</p>
+      </td>
+      <td valign="top" class="td6">
+        <p class="p10">'SHSA'</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td4">
+        <p class="p10">TclOSA</p>
+      </td>
+      <td valign="top" class="td5">
+        <p class="p10">Tcl</p>
+      </td>
+      <td valign="top" class="td6">
+        <p class="p10">'Tcl '</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p8"><br></p>
+<p class="p4"><b>Terminal:</b></p>
+<p class="p5">To run a previously compiled script or script bundle from Terminal:</p>
+<p class="p11"><b>osascript /path/to/my.scpt</b></p>
+<p class="p11"><b>osascript /path/to/my.scptd</b></p>
+<p class="p8"><br></p>
+<p class="p5">To run a dynamically compiled script in Terminal using one of these OSA languages, supply the language option and set the other options as desired.</p>
+<p class="p5">For a Perl script use:</p>
+<p class="p11"><b>osascript -l perl -e 'print( $ENV{HOME} );'</b></p>
+<p class="p8"><br></p>
+<p class="p5">You may also use a â€œhere documentâ€:</p>
+<p class="p11"><b>osascript -l ruby &lt;&lt; EOSCRIPT</b></p>
+<p class="p11"><b>@var = "Hello world!"</b></p>
+<p class="p11"><b>puts "#@var"</b></p>
+<p class="p11"><b>EOSCRIPT</b></p>
+<p class="p9"><br></p>
+<p class="p11"><b>osascript -l sh &lt;&lt; EOS</b></p>
+<p class="p11"><b>cd;</b></p>
+<p class="p11"><b>ls -laFG</b></p>
+<p class="p11"><b>env|sort</b></p>
+<p class="p11"><b>EOS</b></p>
+<p class="p8"><br></p>
+<p class="p5">To compile a script in Terminal using one of these OSA languages, supply the language option and set the other options as desired.</p>
+<p class="p11"><b>osacompile -l Tcl -o tclcmds.scpt -e 'join [lsort [info commands]] \n'</b></p>
+<p class="p9"><br></p>
+<p class="p11"><b>osacompile -l php -o php.scpt &lt;&lt; EOS</b></p>
+<p class="p11"><b>\$date_stamp = strftime( "%Y.%m.%d %H:%M:%S" );</b></p>
+<p class="p11"><b>echo( \$date_stamp );</b></p>
+<p class="p11"><b>EOS</b></p>
+<p class="p9"><br></p>
+<p class="p11"><b>osacompile -l python -o py.scpt &lt;&lt; EOS</b></p>
+<p class="p11"><b>import os, sys, site;</b></p>
+<p class="p11"><b>var = os.environ['HOME'] + "/Desktop/";</b></p>
+<p class="p11"><b>print( var );</b></p>
+<p class="p11"><b>EOS</b></p>
+<p class="p8"><br></p>
+<p class="p5">You may embed calls to any of these OSA components in an AppleScript.<br>
+For example, to call 'perl' from an AppleScript in Script Editor use:</p>
+<p class="p11"><b>run script "$var=`env|sort`;print( $var );" in "perl"</b></p>
+<p class="p8"><br></p>
+<p class="p4"><b>Errors:</b></p>
+<p class="p5">There are several types of errors which may occur.</p>
+<p class="p5">Some are the result of errors in your scripts (both compile time and runtime). These are normally reported in a dialog in the host scripting application.</p>
+<p class="p5">Sometimes you may encounter two error dialogs with roughly the same error message. These will be the result of these OSA component's over-zealous error mechanisms. You'll normally only have to fix one error in cases like that.</p>
+<p class="p5">Then there are internal errors that may report error numbers outside the range of typical AppleScript errors. These could be the result of a faulty or corrupt installation. If you every receive errors that have errors in the range of low level system APIs, you'll probably have to restart the machine. These types of errors usually come from over-stepping the bounds of strings, lists, and other such objects in a repeat loop in the actual scripting language and these OSA components may not be able to overcome a hang in the scripting language.</p>
+<p class="p4"><b>Author:</b></p>
+<p class="p7"><span class="s4"><a href="mailto:philip.aker@shaw.ca"><b>Philip Aker</b></a></span></p>
+<p class="p4"><b>Web Site:</b></p>
+<p class="p7"><span class="s4"><a href="http://www.vcn.bc.ca/~philip/osa/index.html"><b>OSA Components</b></a></span></p>
+<p class="p12"><br></p>
+<p class="p5">Enjoy,</p>
+<p class="p13">Philip Aker</p>
+<p class="p14">Â§</p>
+<p class="p15"><b>Product: OSAComponents 1.2.1</b></p>
+<p class="p15"><b>Distribution Date: 2007-11-22</b></p>
+<p class="p16"><b></b><br></p>
+<p class="p15"><b>Copyright Â© 2002-2007, Philip Aker</b></p>
+<p class="p15"><b>All Rights Reserved</b></p>
+<p class="p14">Â§</p>
+</body>
+</html>
+¡Ó_file:///choice.pngYimage/pngOI^‰PNG
+
+   IHDR        òh¯  İiCCPICC Profile  xœ•‘ÁkÓ`Æ_ªlêìdDôSuĞIh×!’Ùm*ägKÛÜº$¦ƒ&ıHÓ9ÁƒG;éÅƒl ;(xrâE^<¨°ñ ş“!Œ±„2|áƒßóÀ÷½ï÷¼™nJÙV€ Œ£Å›7´zÃÖF¶ãã\b¼étå¬e™­ımÀ×©¦”íkÏ×mc§”;ùxrõËkı÷ğ{ d£zÃ‘T?eP—R® êıXÆ Z€ê´š.ˆ‡@>ª,–AlY?å·@v)å@vÅñc»€ºË!(£ÀU×ë: €ïv ”M`::.(ßËŒbÈ¦ê[KGîı„ëUP~<û¼ªÂÙµ—Û µïÖŞŞ.çF»÷Š Ä©-8ş$Iöj02	‡;Ir°•$‡/ ó>ì;½håo^B|‚£túçTÃç¸OÃ8Í 6€`ÏÈ=…‰°¨(Åbÿ¤pznŞ4µ‚®—¬Ú;ÿï
+Ú½~Œyaõ.p¸Èó˜˜hĞÑ)±€E-İ#À™—ğãÄÌ-İ|ÿfíÑ¿oÇŞjPîÈÑ²ßŠµY)ÛVî²{Q^»:WòZA×K  +—ˆâ»Ñùñ    IDATxœí½Ohãj–7|rÇÇ€S½PÜæ‚ß…hÑ]xLƒ³ˆzáÚ9‹†xÑp=Ğ/¸80‹xC{1ÎbÀ^\ˆó2ZÌBYØĞ‹hà~ †n¡.Hp:7ı-Ntêñ#Ûå¤’TªêùõE­ÿttôHuÎóÿlıå/µøêc ¡¡¡¡ñ	à)¢"ês}®Ïõ¹>ÿ¤Ï·tO”††††Æ{±iÛ‚bËªc’$úøÄÇõoDõQõñawh[ ¢b“c’$2ïªYóeyDØğ…j¾æk¾æoÎÿ
+²¸AX[ä`À®íÒ9"&IbÆN¿£ù«8ù#"ÒûÚ°ıÁüš¯ùšÿÅò—´-0°˜Õp×Ğ6Ñ£ñ XÓÚĞĞĞĞx@rëù£ò+·è¸··Gµİ8‹Åbš¦ˆE (L}|ãÒwdšfÇÊ1MÓb±(Ÿ§iJ¿Òù&GÍ×|Í×|>Ş¶-òí ß÷‹Å"•|1ıÄŒÙlÇ1 X– B¹ÂKªÒ4%>ßõ3M‘kş&|ÇqøEˆlÜˆòøäÇE k h¾æk¾æ/åoıå/YÚ‚ T*ñÅä€ä{(rùÆ
+_6B–¯:×ü;ñ'“I©T2M“ß µBäÏçò»[%_u®ùš¯ù_2ÿ6Z€r:Óé´T*İÃ×hùË=Ï+—Ë °´!ÉdùV¨åZ®åZ¾¡|¡mÁ<D‚ \.cÖ\àÎ&ËÎKÖN'r›#OÈË5ÿŞ|ß÷mÛ¦s¥Ç0ä€‹!?ùîšÿ…ğ«=’X €QË K$õÃOÃ~ÍJş÷‰Ã¢ëŸL&•J…åyW¥Èå{çùô“\ç•{KÖëçÇ`ßGqs{ØuB6‚Â…²¡ıw}Ş§ä{G}†yuOå/Tô¯jşgÌwÛ{ € † S€ 0ìÛàĞoÍ¿ıšÿ”ü¯ÈÅ(Ñy( Ï¾4:%IÂ×*¹x:¾—/Ù$r‡ìúßk"Ê3…ä‡º«ıÏ–ÏÇ$[cAY,ã8¦(ËoY~÷\Q`9éIÓTó¿>Ğ‡D†	@Œ °}Úß{şökşSòoÛr¡ó0¹'
+³Ú½|²¡œÜ´L“ïR(Zª‡£E^?ÿ´Ê™³‰üNÏõ|äçÙ¶Í/UHÍ&9:òjù+·N÷ Á °@ÓœWG%û¨(`àıå´ÊÊz.//©‚"„0M³\.ç[ühçp8‚ K¥R½^ßDÏõõõh4€R©ttt ı~¿ßïû¾ÿáö¼W^­VÇi·Û«?MÓÑhT­V—ş£~@û×Ëo×rËÑ²¨Â¾UÁŠåÊŸ
+ŸÿäÎ\ìyW}^áí‡(YŒIB·Q"á{ò”Oòfçí¿ëó~>‡U]E~nÑUôŠé'ù-/•kşgÌGŒÁ6 ˜Îà¼c¿æMşâOÿR²ñêj¼JÿÙÙY¯×ó}4µÛíıııÁ`ğPöGQT«Õ: ìííõû}×uã8^¯0‘¤×ë1Ÿ	OPòíJ’$N‡cóR~š¦“ÉäQ¿ŸH•V9T0)YÜô‰‹ƒ“ÜO¥òãŠÅ[ÍiJ$C®#KºÊ÷ı$IªÕ* `C!0A B b©@@ ELS(Jö b*ÒS (" …€äV Æ)@«#(ëŸWÖÿ|ø˜-‚‘‹QAáAd«7¨ŞGİStBßŠÜmÙ¸ŸhşçÍ@Ø³ ßÚjş³î8A(„^ ˆ`	Q­8«ô€ëºäĞ ßï·Z-!Õè?Ğşn·†¡çyôİœœ¸®[¯×Çãñšç% œ>}y²«}Xı†aA@®âƒN§Ã´ÇxŞwûD)­
+ÖB!–A¬¨¿C±(2Üò³˜äÔLS‰ÉÓét8’%Â4!®a#"%Â$*dp(*bÑÔ	f¦úŸ !ÄíJš¦ëì_†çÆç ñ‰DÚQŠ~¢×Ÿf(‹?VÉåj…æŞ|Š¶ŞõeÙr£HDAS„!BcX¥Ÿ¾:–7×u{½^š¦I’”Ëeß÷«Õêë×¯É×ÔëõıııR©Ôh4¢("=FãüüüÍ›7¶m—ËåËËËb±ˆˆ®ë’Ã"Ôjµétz}}¦éÉÉÉùùy·Û¥î¦ èy…———KŸ×ó<×uK¥ÒÅÅE¾|<Ï;99©T*®ëŸŸ“<ãR©tuuU¯×-Ër]w6›ååÕj•äiæLHÿx<şî»ï,ËªÕjü¼T&TÔô)‹AT«UË²ö÷÷;Nš¦ƒÁàõë×ãñ¸\.÷û}*OzöñxüúõëápX©Tö÷÷Ûívš¦¾ïSã£\.S˜|Œïç+vLÜ*‘ÇÙé“Ü0Èb	ùü¶«Ğ°,@Ù ’j3‹ÉŠ~Ë4Q˜E(€B€ Â@!ŠPn¦(ö " @Sù(„¸­MZ†‰€Å,­y–Ÿ÷cñi<œ^­Ü4á)ºŠû”åÏ¤Ê7Íÿ"ø1@
+WS‚jC˜@A@ÇM¢„$Ó³‰şr¹ÌuÛÙlÖjµšÍ&¹¿£££(Š†Ãáp8Œ¢¨Ùl’(ŠÎÎÎÃ¸¼¼tçää$MSRâº®¬Ÿ¦hÒOQõz½(ŠƒišgggdO«ÕšN§ß}÷İÕÕ?/"†ax~~Şn·[­V»İãX±_Q¯×}ßo6›oŞ¼ADêBO’¤Ûí6Á`@çÌòryÌ&MÓÙlV¯×OOO¯¯¯ ßï“=NÇuİëëkÏóèf†‡‡‡¦i^^^N&‰ãØó¼ÑhÔëõjµ•'ÙE‘çyãñ¸Ûí¶Ûí~¿uuU.—›Í¦aãñ˜FMãû¹"ë¸@yÌ óøBê'>»¡¼\¾°R©//+ãºÕÑ`@òn·»_©ÔÉdB €ã8ı~Ÿš™¬V˜" ­ BÀ;9Â»®|ÅÌ±rèJ©*
+ WÙ×çıX|±¸#YÜ}Vd•öï’åüÈrşzäïAó?W~öôF  Â‚¾? Ï70Œ€Y›èg!¡Óé8³··AÍf³T*Ù¶İl6¯®®xÖ_£Ñh6›¶m·ÛmD¼ºº¢o•æn°~Z‚JŸ7 8ÓétlÛv]w2™Ğ­.//Ã¨×ëBÈƒõz½ƒƒêâN§Šı¥Réàà€Ô@\>ívÛqœƒƒƒããcÏóØÃ*r¹<q0ìííÙ¶†¡ã8çq)yGÛ¾1“ÊŠVMííí‘Ã0ºİn¹\–K•4ìííŸŸ—Ëåãããr¹ìy"’»7CH=
+ûı|Å?sÁ¬KŠ}ÍÒ¥auwÈúó¶«=£0œ^]ùÿùŸ­f³Ùj%qEÑx4šø~³ÑhwÚ@ „aèû¾ïûT›x§?…0còôD’ÜÊSù•mH Sú+Jb!L¼íÓº=@ÅÊ,Ùş»>ïÇâË!^-5Éåp‹
+mZşÅÊàv
+mƒ)›[„ñ4“KMòz¸®Æ*;;:±ÉÅïïï“œÂ@ù¯]q}}M„««+ù¾³ÙŒ¯¥Ìê²²Û¶ƒÁééi¯×ãAË²¨ÍM>Z"FQôúõk×u›Í¦R>|‹ııı$I¸¿JYå;I’v»İn·Çã1—[¯×€J¥òæÍ›$Û’uooO.7Òcš¦b-—3ûj (•J¾ï/õşı|¥8ÙùòŸÊ¸k¾Ş
+R¿Ç;'ešĞ<=…b±zxˆ×a8@ˆÖééh<¾ºš&qL×·Ûm2ˆA L1¦Q
+D ¤€†`y‘mPì €b‚ˆ˜šÂDŒE6è·A#•¯åí¿ëó~,>—ı›LÓwÏ…YËƒ¿oÖ,Ÿhù—+G€ÛÊ:4 œe»ßÜöP X¥²
+)Ë‡Ã!mp©ğÉë]__“<C¼Šb˜iš¶m†AUfÖsyy	 4­ŸîÎúå2$§vÍšeä óONNèı~Ÿu*ÏK}J{{{›ÈisÕÁ`0///‡Ã!É÷ööh€Ö4ÍÙl–HÉiØÎ¥ïQ±?Š KËáa¿Ÿ¯07}–gp1†Ó»ç~s~y9İÄ‚f4™¦™$‰mYµz½V­şçå%‹Š›†a ÒøÄíïÂ   B˜Ä»oQÑÃç†q;Ğ·¡q«Çä¬Uößõy?
+_ykÅlVJ!Dyı }[Zş%ËšÖ€pæÁxŸt4ã ¥ßŞ£'I’««+š
+%/5`¾mÛ¥Ri4!b’$Ô%E4š	 ı~_A­VËó<îÀ¹ººzóæ\ñ_jÏh4"·†!¹Q…#ŸO§Óv»Mm‚(ŠØ¿ÃbÕ™BÎl6Ç·s5€l›Íf´B)“jµŠˆ½^nJ²S¹\fOÃ<A6Cõå7Š"Ò3N§Ó)İË¶mjâlòŞï'_˜ÅáAı@ièBVÄ]o
+P? A"b„¦årÙu]Ï÷K¥’ãºÇÉµ ä*ÉŞ)¹m dã €·“j%w)Û“…+‘$(Döõ 	"€À÷Œ½õöËÏ‹«›±—¯¼/É —­X±Ó,~ëï«ùŸ!Ÿ> À+èõ  p¿ˆ‹‹‹W¯^U*•v»].—å.X¬âĞŒØJ¥R©T¢(êv»ü“aµZ­R©ôûıóósºªV«u»İV«å8Íışûï•n¢¼=N§R©ÖëõããcšJËşDáÓ:>#i6›½^o?×u[­V†Ä§j3u:.Ï(ŠHN÷Uô[–õ»ßın8îïï;óúõk’ŸÒÌ+\a¦çyãìïïSW•¥<…çççT,4 ÊåòÁÁç¬*ø°ïg‹¦p,%¤iš$	YÇÒş(Xü&d¹a¦iV«Õ(
+ƒiĞ=??:<D€n§ÓëõÊI’Ğ„9Û¶}ß/•J¯¯¯)&gú³©³ €˜fú­÷Úƒˆ)¤E  ZW‘ ıÓÀ ˜ç+ößõy?
+8
+!äÉ] `š¦ümñ%«>-ÿ2å•zb€"4Û½‹Nµêw¾{ådù4ÔªWºñP÷åé3,¯×ë•Jåôô4Š"ù£eP]›³'¼÷¾I’Ğ>÷°“O¨*EÑwß}7©Â•9’_^^Z–%Ë—ê§¹³rE³î…Ïí›õvƒ‹‹ZHÏõxæ¯Êms§rX%ÿŠì¦iaü$òeò½-«üó)Ã0Š]„€4mw:a^zCÅD—S_ÔÏ­ŠÛs!L€â&ö!ŠP¤õˆÙk!„¹”¯Ø×çıX|ú‰; D6×kÕ<‡UïZË¿89ıC¯ßÆc÷Ué/ Í3jÍ?Ô}iÆ"'È¡BÖcY‡ŠMî+„àPqW;ùW¥f‹£,²Y¾T¿<X-ÿ‹ÎóÉnng>TàŠĞõPßÏBÛ‚ºüxR)­‘ŸP~`Åî¥rË²&“	ÌMøZ~9õö
+!hp[çà¹äùOí¹=…–yEI’pÍo»yo{{{\“{{¨æÎÛ]?¸ş‘#b¿ß?>>Vvº[%;ƒ  eO_>[¼P…ë¡ˆHB<YÓìNî†øÜ¶ÚWıšO.dƒŞüùB¶R}}ÀĞĞĞĞØ·ë-äq2å@ºj€T^ğ%x€Òªçç,å+ú5C>ıJİ‰ È§B’r«S–3¹æk¾æáü‚ÈVqCÎ­0Ãà€A?‘DÎ-_Â5YÊÍXşõõ5£ñr'¹UAoŠzWóV¯º£æk¾æ±ü"òaòÏÊ:a!„rÂHHãá
+_–kş#ñ]×¥B!ÍŒÙ¸…|hhhhÜ_‰ÅÙú\laˆ¬U!²1F2˜¶ŠÏÚ4ÿŞ|
+_HóÙ”I´*ørå-ó¯Kåyh¾ækş—Ìÿ«_ÿú×ÛÛÛóE â|>ÿúë¯àææ¨ÓªP˜Ïç P(ØaÍçó’ò|_²†ÿÇ?şñßşíß¾ıöÛùwÕÿéòonn–òonn®¯¯wwwé¥ÌçóíííB¡@ä­­­B¡@òßÄÍÍ¢°P(°œÎ5_ó5_ó!?nR$ÆÒš©:Iè'±ñ<Ÿ5ü(Šúı~~}ÿCéÿDù2‡Ïù½PÛ‚æDñ9f{RÊä»ó9Ë•ª„æk¾æk¾Ìß¢yM¼Æ³%]”ÀNñS°Ø=Ân‹å«økÎûı>mæ%„˜N§õz÷~ıŸ=8*ã¼BG·à’!±ºŸJó5_ó5ŸäÕn·şùg àn(ÈÚ û·K…{3ä†É|>B(r:aù7ß|ó×ı×¯_¿ş×ıWÓ4¿şúkÚ#eww êõú|>ÿÍo~†á¿ÿû¿ÿâ¿øùçŸøá‡ø‡÷w·µµ…ˆFãÿüŸÿóOÿôOşóŸ¿ıö[!Ä¯~õ«$Işñÿñ·¿ıíÖÖV¥RÙÄYş©ğåò§ş%zyÔİtssó§?ı‰iT°Ä¤9QÔÀdÍK!¿VY¸T®ùš¯ù_&aN””úšäF
+ƒ¶v‘%Äç.”(Š¦Ó)í%Ùl6ƒ (—ËƒÁ°İnÑ&‘õzÇã1mıÇ1É)‰U¯×k·Û”Ê÷ı8(%!"!„ã8Ôyµ4?Ş1?Ç†|D†!1ŠÓ\hi}¸~™ÏåÙØIf9·©](çÀ*rRôEÃø–šñ°ü$IbÚ€3MìIS 0LÓ´mùª§±çŞü¢0
+â$£H ˜¦eÛ¶!J–°>	û1[uK;/†Q©T>¡ò×üÎÿÊ09T(aƒ­Êo±I~òã´£ïõõu½^. `0Ôjµ<oor]Ğ¼KÀ4Ír¹L"ãÓÓSÚ÷˜ÿÈzVÙ#Ûo~öë-ŸB…BñébÏªò‡e{Ô(Ëñh'ZåS``²ü¡øI’Ä“‰ˆ"+ŠÌ$1£ÈNSc6³’¤Ñd"—ÉØs?~„‘.ı^Œ]U×q]Ç²EŞäÌ	FÏÙ~ ˆ¢ˆşPf…ñx<yuí3/Í&üB’$rÛ‚²#ˆÜ’r…(9/y}€|’_7ÀNÍ4MÚ†*&“	HyØßñ -ç–bg¿0MSiÖlbÏ]í_ÊçÂ]ÊgÉCÙ³ªüYÎ–pó¯òòIşUd!Mù \ˆñdb#B"
+Qd	qBĞş¢v¶qıcÛs?yˆÁ4ïÂq*q‚IŒ!DÑ´„e—¢(ôÂ~Ù:²Ò=ô?œ¦¼‹Å7oŞ¸®K	MŸş{ĞòO]¾°ŞBv=LâËXÈë-–œÊ|D‚€"Û’öw‡·ç•waı´ àèèˆ2&"¢ïû4öËšAïµ‡%ÂW ğ…¼!ÇÚ#ûS™/¤õÊ†ÏM•ËÊŸyù‡ğ©Uae¡B~RA!qÀN’Ğ÷¹èÏûñC‚p\.Ù`Bˆ“0	£8D  L0!Š’P˜EÛ6ıhAøÜì§“4Mg³Y¿ß¢ˆò<ó¿ôbæ¢ü¯0—‘›Á^‰ +¥ŸäT´KùBˆápX­V«Õj§Ó!~½^O’„F,  Z­Òü+Š²•¤§V«Qâ‘R©D	CH®<	"rJÑõöŠüüVQ$L’„»›¨·	MI-_.Gå|1Êò{ó“(Š'3I Š€_ëÉÒë"€ˆc;Š(`<=÷ã‡³ Ç¥Ò^˜\'}œ¦¸5 08†Ø¶Mo:ˆ’èùØOr;”Îó¼kæºü;¬·¯R'	K”AZú‰9);JÙ¶]«Õˆ_,}ß§İji‡sº¼Õj‰¬;e<“‘<RB£t_9‹ƒláR{Ÿû |¹|ÖğÔRƒã½ë-äKXƒ’e«òò»ò ‚ Æ1-ÄmNtÀW"€@D@´c!ÌJEäÚ@nÏ½ùAì†H €€€˜Š8FÓI‚„€(èE
+ÀHÂøÊÕgb?"Æq|uuEy{Ç¡€†!ö=±=šÿ©óï¿ŞB¹_Ş÷	!LÓ¤ü²¼ÕjÙ¶M£ß«ô?g¹üç–ÏƒÈ7\oA„U‘éå¡ï›³™‘¦ˆ( À”İ„T>ü1 ÄB ãØåòƒÛs?y„¡ô+e;HÊ„€qˆŞ ,9Æ¾kDS (
+CˆÀ›Õİï÷û£ÛR¾ëÉdBé²©‘Q­VmÛ¶,+Ÿóç£Ø©åŸŠ\]oA3ú7YoAZæH2_\OP¯×ip‚å¤ÖqZ ğózÖëÿ(ü¥òû•Ï&öˆë-H>ŸÏÿğ‡?Ì7Xo±ô;ïşPòäæ¦øÓOps#„À›(ø‚9Ù€È«{
+BĞ¯X(Üìì¼°í·ç~òÿïíôf¾xQü	±"n@Ìñf>G
+~
+®Â›9±½[€·ˆ0Ÿß nÍç7øó®0_ín? ¼xñb8N§Ó_ıêW/^¼  Ë²^¼xáyŞßüÍß "móÑíÔòOE®î…ˆt,
+/_¾$êÍÍÜxa¼}û–Ç<Ø“ óÙy±¼P(loï
+Q !ğfNßê*ıÄ_£ÿ£ğãqk^¼İ—©P(ÀÛ·owwwcD,¶çÙ¦+ï-ŸMì‘Ë_U$/
+¿ÿıïiŸ(zƒÅb‘÷‰¢òçæˆ|/ŠXóeûÃ ô÷àÏ~üq÷æfon`§P@ A¡
+üùçÂö6‘ç…Â¼P€B’İ]óåË·ç~üà'ÏxQœa4O±`ŠùÏ["ù	ôÿ ?#üxõ‡Ùãç»/
+bg{>0GØŞ†dçk«ò^ım?Õ*•J©T’“Z[–5ŸÏÿã?şãææf4•J%úHÀÍÿÔùê´J*$‚Üb¥Ş*!MĞ$¹<T"×de~v À$¡±B\Ì‚›çßUÿcóMS¹|p9˜B¥^£{—Â_Uş°ÁzW¦$‘GÉNEş üÛğ©ë	@Ğ<7ÖR,éáñ²öÑì¹?ŒB@)@¤iÇqŒ“Bá½ïõƒ`€c!DÏÁ~:7CNjM|ÇqÚíöx<~ó¦íyŞ“Ù£ùŸ4İ¸­c×£œl(G¤["R"9¦_ËóãøHù-ß7Â°˜$4X†Y0x…€ÅĞ )@R.—\÷iŒ|/ÎF­²k%§€B‚1 DQâõB 
+‰ Š`•ŒRÕ¶,AAQˆb2§µîÇ6ÿıèõz­V‹Ö·6›M÷Ù”¼Æ³Å’üüÏX‰0ˆî”ßBÜÎL”±x@•–Èúeùı,lşæù<#ÿG…/m~!n£sSÒ ·Ãİ),Ì’‚Gµç|CI¥)bÏ’8NnÕ§Àv÷´ä4JÂ‚¬d1Šâü¢œbÿ{ùÍf³ÑhAÁÙÙÙh4ú¸öhşóç?E~‹B æˆó9îììÜÌç€BƒáÍMbšæ<`‡l`–oñòOÈ|ƒç½Àß°|6±çÊoñÓ?ÂO?77ñ|¾5Ÿ§ 8Ÿcš·¶ àçŸÆíí9@`ğsšÎ··àíîî‹—/ÜûñgoÿøãMğâ™áŸ~º™Ïæ8¿™%¡ŸX•İoÿşkûÛ»f!Å9p0ÿùf«¸óÓ~úñmÉ®|tû7á;3N§Óiš¦?şøc’$ß|óÍ3)Í†|uNËÑ¢P(PÍTVÇ“sX‚=ßño§÷Üú»9@ ÏÎşß/^Ğ²Š¹rüX£_H£ÁÇ—åJq/}^È¦3=ˆ=;;;\şÌç÷B{Ğ†Q(ŠÅ"#"^îìì@Ö^”-¤àA1†ä¬_‘ß•ÿSşô'SDœÌ Ma{¶·ç s!Ì­-À4…ù|¾½]ÌäÛ¶mÙöƒÛs?şNa÷‡«ß³ÌYüÌçs¤aÏK¿xYPØ.ÜüŒóù|0ŸÏ ó-§Ñ‘óú…i}tû7áïììT*•ßÿş÷ÿó?ÿ3ŸÏÃ0|ûöí7ß|Ãœgn¿æ?1_m[lmm‘“BÄ¯¿şZds:É7ÉîŒªÀ,'¥\]Ã€Ì_\ŒÊå¿İßßWøÔy²‰~ÌúÄ•¯ØÏ×r¡Ëò¥ü±G‘Ÿ94'Štnoo“**Émz”…6OHs^¾³³s?şÍ|½}kŞÜ¤ó9 ¶wwç|>ŸÿÇP,¾Øİİ*çóù ÂBá¥ãP#éaí¹w×ÿNCßø_&5…@(¾Ø#
+p“Íè#Ü DÁ¿±Ü¿sêÏÁşù¦işâ¿ğ<ïø Ìf³8¿ıö[vÏÜ~ÍJş£ç·ØÙÙùû¿ÿûııı~øá¿ÿû¿¿ùæ›B¡ğË_şòåË—/_¾üá‡‘¢Óé´ÛmJSÑï÷/..\×ÏçAüú×¿şå/¹J¿,ßÄ{óåçå2%gMÇ8‹Å"ÚBÖöRzîaøÔò[‹EÜÚúãÛ·&" ÌåÇ¸(‹ °5ŸS8A€Ğ0ìÿı¿_fİPkÏbÈ\ƒ    IDAT½ù/ÄËñıßí]b8'
+0Çù|.ı‹™Ï¼Á›ñôWİ‚ùLìßošæ·ß~;úé' ˜Ífoß¾•Æ3·_óŸŒ¿°O”Ì&®¬ÊÇEêFÍ"æ¥“(Š<Ï›N§®ëÆqL|DŒã8ÁÛZûÕÕU¯×ó<ïüü<×uƒıv~~N[¯Ò¯`i~ˆä³ı¸8şLY%òÃÈï-ŸMì‘ËŸÇ6èHrŞ'
+³ùly24æ¶¥b=yÈx¾¢T.+•išBvSåJLÓ8›e†íº´ÅcØso¾eY·øQ2ãN1¡ÂO³‡J gqèGu·m‰%ëò>–ı›óËår·ÛBÌf³0G£Q·Û]ÃnökşÓğ=¿í%_+ÄítCº¨V«Ñ>ãxgÛv©Tº¼¼Œãx<s´X¥_¶G–?ß4MZÁ ¤ic(mÎY– =«Ê6Xoñó[”ËeËu§djšŠ,`!0M¡XÅ"¦i „å8´7Ì£Ús?¾ëT›ÕN4Á© ‚¦)"íK–B ıqúø}ãÜ­¸wÕÿ|øFãüüÜ0Œ$IÂ0¤‰vŸıšÿüÇ]oAûDQµ±ÓéĞQá8N§Óq]÷èè¨^¯SH “££#jgÔëõétJU»Ş÷Qå\vr	ÈáÉìYµŞå=Ìó¯ÿñÀæM&“äêÊ¦*ˆÜ„MS,#Ã°Ç¶í'6oC`‰Ã(ŒûchX`•,aD4KÂ0ÄÈ¨:‡õjÃ¶lX\åôÜ |½U)½½²‹‹‹N§Ól6)#ÙG³UãYâÑó[0Á²,ŠLƒÁ`:òU¾ï³gq]Wáºît:m·Û´óàı,Ì}?ŸËŠäùî£Ç°‡#„ÂÏ2¿…È6ĞµmÛrİpbÛm{{ÁŞ^`ÛmG¶]r]ÚFL.–Ç°çŞü8ã8 šµÓîi¿ZnaGV8*Q¹Q>í6{ÍÚ© Á9Ä•ıÊŸüœNLÓäLh$9>>‡ÍfS¾ö™Ø¯ù¿¤m‘¦)m;AU~®'*ûO¬R*óyZ Ãğèè \×¥M1©mAßëëë££#î¶¢$Ş´'Áıù¨ö4ü¥M
+zÖödö\^^rœBp;²zoä!{‰ùoB‘ß›/ï¸¾”ÏaãÙ£Ús¾òçõ "MpP8ÏÄ~Í×üä?n~ Ê]AÂLUâäÌ©ˆX¯×3,_Å{ù\&òQñzh\şü"ù^Ï-¿—6•PÿğE.~+|!U†Äbğ{&ök¾æ? ÿqó[ÜON™ò(9ëcèÿÌäÏ-¿…–k¹––ò-ê™©İÇ1õDñ(7¬˜ô¹Fû‡ğ1MSò€¡ÿÓâËå/4 €ˆ”´œÆ0äöÏbÍù;jhhhlu½…\“Å¬e½fıŸË„5ë	6á³×ÛWıŸ×®· iš,æÖ[°<*D®w‘±T®ùš¯ù_8å¸":í{1P¿¥É£ ˆ3¥Â»üh¤áıLÍ¿#ß+nvp:¿PÛ¶)sÇ²z•oÓQ B6uÍ²,Í×|Í×|™¿nÜ¢ã/O©ñ¬ĞvBJ+2P{q0Ğ,dX!_8z½Bm[@Ö« Yòz!²nSåk»ğ.KAŸËÍß”·	èòçïÀk_8$ĞÀH£âÄá·öN{VPä vhşçÇWşt{4ÿùó×å·ğşøb€s˜Ót ãü\(lÏ¡q
+KùÙùük»°o‹góùÙù¦ú?Kş\â,ßş÷ÿüu´»»ûÃ?Ğ.şóŸiÃAD‚ R©@n{D>§ÖäRù»­ ”EÑ¿üË¿Ğõ¨?Š¢şçvg=ßó¼ÿú¯ÿÚßß²çıèü^¯—ÿ®®®8•Å3·_óŸe^n Êk&!Àì  ª%cÒu«%ã–&@”8òµ·Ç¶ÛÜ/É¿x¾\ş2_ÔÒğ<ïúúÚó<îŒRò‚TG pb©¼ÓéĞ~-„~¿ßh4Öğ7—'IB;Ö} E†áùùù{ù¾ï{÷€÷}æòñx<Çã±"§äùØ©åŸ„\EË»n€·ÿaâİŸ v›¥ñt6&*¤kI"cQ„ù Ë¿h¾zñ1I’ŒÇã«««ÑhD£Pò²>9lÈ¯_™²ÌòétÊêÚ–›¢y¾²„ğ½ú¹Ûs~†ò2õõ|Â]íyp¾eYÓé”äA|D{â8îv»WWWN‡·Cşèå£ùŸ.IÛâİeTÛÍª½|­ª}$İADu^ a,rè¿º³7<-OKm ¢& tê%¿S>o”VéÏÎA–/Õÿ¥ñÅ2~†a åX–¿l!Äl6Sü>qøÏ~¿ï8ïû$?>>¾¸¸àÍWXg§Ó)•J¶m7ùc¢Ï«ÛíV*•J¥B@½^¯T*F#Cş.‰ïy^¥Rqg8’Ïóö÷÷I?"6›Í$I*•Ê`0 FI¥R9<<‚€øãñØ¶íJ¥ÒëõX3ÛE‘ëºûûûÔšá2¡g!ÃšÍ&•ŞÕÕ•ëº½^Ï¶mÇqÂ0<<<´m›öÁ€ÑhT©T\×í÷ûEÓ~¿O´n·‹ˆN'I’z½Şn·q0T«UjÍÈÓ —–¿"ÿpşÕÕÅ-J§úàú5ÿKã/i[€/ôW&«9{ç£³ßÅ2>"~l7zAı,œ„äÂÒÚÁ;­iÉ6J¶Xªİù—Í‡eœR©4†ÃáåååÁÁ,¶dMì.e¿	YœÃğòò’7\±,‹¶#EDæGQDÉH¨ÖL~“‘$É›7o.//iƒH ¼q¿ß—c 4›ÍËËËñxÜjµXÒh4‚  Şëõ„¾ï×ëuÊ»0™LNOOOOO™?H¿ü\Ú˜r2™\]]ù¾Ïròã¼‰=Eš¦”¡:Ã0h×2ÏóÎÎÎHíéé)YÛn·IÏl6ëv»D{óæ t:Ã0ƒíxÖétÎÎÎz½^µZå0œ/ÿ¼\ùó~üjµš¦)-¿å=ßP¿æiü÷ä· â	ˆ¦ ¿[®»¶[a„ÓˆÖ[,ÔaAºŸâ*Húí’m±¤8ºšyÓ ’M°Änµ^¼JÿÄ—Û
++Î9¤iJûÒŸô~Éã‹0”J¥ †Ãa«ÕRÖÏŸZ–ÅÎ‘ø®ë’k®V«ÃáøÃ0Êåòáá!ï+<Â0l·ÛA°¿&²çyI’t:rı“ÉÄó¼ÙlÖh4X§Ì§-Å(<\]]Ñ%Bˆıı}!'~.Âh4ò<¯ÙlRV.”êJdX«ÕâÍ+Éş““ °mûøøØ¶mEFÖQà&W«Õ¢– DQt;™P²¿\.÷ûıN§C[ôS«ˆ9ôšd¾lş}=ŸËá‘ôkşgÉ/$IÂ»@±Xä½—‘'k"‚€±=ºÒ,İaxëé¼£-'€^P-ıÓrwüb`" ˆ²>z™/ òò5ú¿>â;>¢"Ï^Šl™O¨¥sŞ-
+Ç„GGGa^\\X–ÅûÃ!øûè÷ûÔÄ§~‚ÌË|Ïóúı>uÅ4ÙlV«ÕØ•3ÃˆãØ0jÊÔëuÛ¶ig0‘Ã2™„I’Ø¶Í| àQùCg{hçğğîB	—xSŞ$IÇ¡·‚¬äòáÇ¤µZ ªÕj¥RYj'o¤(ëIÓt4%IrzzZ*•ı\†O)‡Ì<ñ}µü“–«ù-Ç-¹ßÜ 1âè*1xS‘5xÜB€Èó„7Åî pJ& †E¿™¦ğûôEÎı_,Ÿ	aÖëõ£££ÃÃCÏóøË{úòûå#Ÿ´Ûmß÷Ó4åŞù[±mûûï¿ï÷ûôg½^çJºïû´½Ì€f³Ùjµ¨yQ­V§Ó©ã8ã(Õ×ug³ ¸®ë8iš”İ„¶½‚Ìùb (•JÄ§ƒ  aóÑhÄÏEöX–U*•¨OÌqÛ¶åO½Z­A@†U*”úc¹”d…ãP».äò¤ûš¦IJÇq»İ><<,—Ë“É„‚œ\şò¿OEO^ÿ]ù4GÎ4MÓ4Çã±Ì—ğÉìÑüO¿0nÙö×·B‚€ ˜Íä ìƒÑ4¡X‘@„·õ\",ğ… ¯Sê5­ú¡İ‡  I¢ì×4ëgQõ¿›5ˆ$œ%ö|±|Ìø¦iROH©T*•Jä[©òYcSş&ä/€…ív{2™¤iJÉ
+Aj7Pg‘mÛv]·T*U*• h ›ùAX–E™Õ©¥B)Ø,Ë¢¬ˆò}MÓ‡‡‡äi(¸Óé4J¥R*•hC‚Z­æ8Îx<v]·Ùl¾zõÊuİJ¥Ç±eY§§§•J…ºŒØ¶§ßïF£ıı}×u©‰¿m»&ÃÈ‰sR æÈ|Û¶‡ÃáÑÑÅî¼â„lÌ¯Ñh4Š»­V‹âÄÑÑ—g¾üË•ò¿7¿\.Ó‹+—ËårùÁõkş—ÆW÷ åm?±ëßúÊ>Q  €İ2G:B$	Ş^º‚“;×|õØ…åÎ[N@şäËDV%'w,oğ »BşDî!‡Üêq™O?)|şN6áËß«bC‹y¢6ÑÏ:QjnoXòíÖ”Ïšçığòß\>z½Ş÷ßÏëIŞëõx|è)íÑòOZ¾|Ÿ(:ÑûD}h;¡Âó¼Z­¦lEÑB®È'üehùg,ç-¡d9-·|Vvjùó—/Ùƒö]UÀmâöz¸mOP­VR;Cæ(çtÛõÍ_ÊYŠ<`9T 4nÁ¹î Òg‹_†–Nršr–—Ë•Çç`§–?ùòµÜ25ïÎ„@ ÄzwXáşÄ¢wÓüÍù ñ	PŞ#Í\’•}DZ®åZ®åëå+Ûˆèul¦*	yhF¾Æ*Kd¹æ?¿Û €eY˜eç6M3MS
+¾ïç÷c®¯_Ë¿49Í’z>öhùó—¯·àL«˜µ6ä-&rúg/„àìÜBJ³*¸¸¢Ö ¡¡¡±	–ïEçrl©7ƒ&+­5|Wšo>G…/ÊïQş•µihhhÜ+Ç-4›–=H®‡×…¯ç¸í¢ğÇãñh4ÚœWıŸ?É¶’UørÌ–ÓÑ{”n[hhh|Öµ-rU‚TG†ÅÚ+É«Õ*-”5M“6ï¤¥¿
+2™\^^*šåóUú¿¾RşrsAáçÇŸ–ŞECCCã(PÛBÙ'Š&Ÿ%wz°Ëã×ä~ùœVçFQôêÕ+Ú ıšÌWzØe¹^ÿÂ_Zş2‡^.nõ!ç)Q˜÷ÀÚõR_9õ„È Ÿ9_¸FŞï÷»İn±X¤í9eÂô|ör±8VÁçr\‘Û+r{‚órçUihhhÜëÚ˜M¼Yåh¢(R¶®#¾œwI%¨i·Û———”+˜i«øŠü½ú?'~¾üåÑå½PÛ‚ÿÔm‡Å’üŠÃ‚¬ÓIb¶y5Ì§?‰@;TS‚Úõ“@wWü H¾2¯ŸÛC
+_¹ïR{–òWÙ¯<ïƒó×Û³ªüÊœhš½ô=êP¡¡¡ñøŠòğßr4ßïAZÆ›Ê1å
+²YÎüU&ŠE?]•ç³>²Ù)¿WÿÒç}ş{V•¿"gÉš¹mKƒ†††ÆæX—ß‚€‹İ  ­·àÜ/²F”úO@rd$?<<Ç”G“@‹ó]Rùûòİ9ÕHs‡ò.•/—n>läõ³òIŞÌ¦³œ%°z=Š"Wìa%JyŠÅ1æ+ªøª|ÛBÁ’üü{%‚ìˆé§Ùl¶´Fî¡ó8Ó4¥ôgÍf“rãÈ)Õ8aŸ¬-ã(ŠPZ^ˆrŞP™Œˆ4."[BÇ$IØ{²y˜åd%I’˜åJ“ùlŒ|GÙ–S2d ˆ¢ˆìáÇ¡_IXœ»ŒˆD1Û7^.OŞçCæ'I"Ç6ùW%¿ºR\wÅ’9Q
+ƒ+¶²3âª.…´—Ë‹Å¢eYìûhw£v»İjµXÕÉÉ‰a²#f˜¦I^[n%È;YÁb[DƒA©£fiŒÉ×¸¹»ŒãœÌçq”Ú+Ê,2ÙZ²Ÿï‹HJl–;ëÖ”¿\Jù+s¢”'Àò}¢  I’jµªø#XÖ¾´_r«”¾¦<_HSu¹O†¯Ü#{Ş¥1€ùù8§Ğ–>—|_9<(E!J]IJËÛCçò$(9úæ›qkÊm<S—”’ÜWöé€¡¡¡ñ!P×rË5V!u÷s,‘/Vúj@òerÏ’Ò
+YÊgıK}÷Ò6Áz{òõq¹âŸ7 94,¶$ò%(ÿš·'ßO%ÛŸ×&·	äò—ËD–¯
+ázÜBCCãa¡î¥¸$ÈúÇ—:Jî”‡Åªk’$r§ÊRg*ó£(’«Ø½”n1¾\á/µG¾œ!UÊR8Ş•O$„õË£ µä=..[Y!Û£<`Ç¼×“Rş²Ù²\‰CŒüœ(İ¶ĞĞĞø,Ù'ŠNd_“_7@¾L^oÁ‹ëær€ªØ²™OıûÌ¤Ì­ç`{x<@‰m²8ÉS/ÕC|ÅZ™H®\qèŠ=Åb‘ZxÜBŞÔ¤Qú“æñ	öş£{±ı°Éòë0Ä²IÃzŸ(ÇÃºq‹ÌoÁxbş]õ¬—+ÁïŞöÇqL	‹î­•\[hhh<Ô¶,ö™°¤ŞŒó[ÈÊ—?6Ÿ±Êşõãâ¼£´_îº‡~Š~åV®ó[hhh<,Ôq‹<6¿E†¼“à&ü»êÿ\ù›ä·È'9ğè¶…††Æ‡`å¸C®¢ÊBX¬JËµ×U=æBˆ(Šz½Şæü»êÿœø,\ÊWB[hhh<&–ïA›ï[Ïwz¼7¿…âËä¾>ß„WıŸMùËz˜¦ó[hhh<Ö[Èş‹ûI˜†‹³X’Ûßß‡ã83Xs¿ß§lz´×E†®ëY–Õh4‚ `¹^¿,ÿüøKã‡ò‚äw!¿D½ŞBCCãa±nÜ‚ı×šõŠ\dÃàtEÑt:õ<¯Õj5›M’‡aïû¶m¢A`F–eu:Ò¶4?ÄRùgÉ—ËŸ%òQe«Ä½ŞBCCãa±$¿…ü3yœ{ç· €f³	 Õj ®¯¯qooâmÛ´/¡Â0Œz½.„¨Õjãñ¤uëõËö|füUåÏĞù-444O‘ß‚7§än¼€úÙéWZ+@'Ï*ÿÄGä¯*EÎßBCCãñ æ·€\7»$n’ß²Ú4BA „(—Ë2“³æÑĞ:aø¾O\‘"o\7ÿ\ùrlù²Dn@èq‡ÅÂœ¨¼Ÿ‚EßÄ^‰Nf³,µBÎ—‡Ãn·A·ÛUòIğUt÷N§†a†£Ñ²~y”:ÜWÙÃ¿~™|şS¾Vç·ĞĞĞxX<b~ú‰†(x“ÁJ¥2™Lˆsrr"¤é=½^Oñ‰›èW8ŸŸ	
+Ì×ù-444÷_o¡t¯+ùÜ²¬õÈÆ-äû®×©ØóYò×”¿,çËW?n[hhh|0Ô¶y%™R_¹<YS&+möeÄŸL&–eAÎÇ)|Çq†ÃáR=ëõŞ|¹ü•Ø xÿ|0 nùÏü%wÂcå· ?)TÈòU|Û¶óú×ğ—Úó™ñåò'!KXÎïKI ×[hhh<41¿E¿*¿…æ/å¯*ÈbÎo¡¡¡ñdxÄüZş4rßBCCã	ğˆù-˜ÏÚ4ÿŞ|yàAæ+—°rßBCCãañÔù-îÄ¾ï¯áÓÒ¿{ëÿ„ø:¿…††ÆÇÅSä·°,«İnoÎçóÑh†áR¾ïû®ë¶Ûír¹L[®×?™L*•ÊÒ{mnÏóY¸”¯4,„·ĞĞĞxL¬·¨V«y'ÿ)ûµU>q0´Z- ˆ¢h¾Ì9::ªÕjõz=Ï?::j44²‚‹{f¬Ò¿Ææ0Ç	Ãp½=wµÿiø4nÙ6\=n¡¡¡ñ°xÜüˆxqqÑív…ƒÁ€äı~¿Õj5Û¶ONNh1 	J¥R³ÙäĞÂz†ã8Fƒ¶IãØó<ùvI’4›MÛ¶+•ÊÙÙ 4›Í^¯ç8N§Ó™L&Õjƒ siL&R$‰ëºÔLYú\>ïòåò‡Õqšß…üõ>Q‹ÇÍo†áõõõÑÑQ½^¿¸¸ y’$ãñ˜<uE£ÑˆºæÇãq³Ùô}_Ş*Š(¦irJŒ$Iz½çy®ëA@·¾¼¼œN§¾ïû¾OÛ¤Ïf³~¿?©qC»Z¥i*çÒ ´¯½^Ï0Ïó¨£ó[hhhh(xÜüƒÁ ^¯Çq|ttäy'`888¨T*ÅbÑu]êHIÓôààÀqÓ4Çã1ûJÈ0šÍ&åV2Ã¶mß÷)åÃè÷ûõz0Ó…§§§¦i*öS. ¨×ë–”GĞù-4444<n~‹Á`àyŞááa³Ù4£ßïËİè2_®XEår¹Ñh4›Í³³3ÒoF·Ûm6›ı~¤JO=Û#?#Û¿··Çı<Ÿz~ h4 0/..òICCCãŞxÄüƒÁÀ¶m/C§Óé÷ûD¦™NˆHS›  MÓ$Ih€}<Ó+¤§J¥â8íÂs¥LÓÜÛÛ€jµ:¹~Í4¿ÃUÇ4.2™L\×ÅÅAòüóÊuÿ5Ï{'>·3î­ŸÊ_ş)I’étŠˆAL&=n¡¡¡ñ€X·Èû)X¶€]åIÍóib4Õëu%IBıQ Ğl6Ç	‚ Z­RˆãøääÄqœ(ŠeJpmÛ¦nD¬V«•J¥Z­RÒo ¨ÕjÅbñÕ«W®ëv:¾<MÓ8å èt:ÕjµÓéP—”išÕjÕq9W—ŸNÉÏ±ª|ò|%6Ğ<4vôJ¹åõSlS<>ÅWyHCaÛ65b”}·òæihhhÜ	[q“³&·ÅÓgÉ#IH¹ì¿¸EBª#ó¹<oÇ0Œ(Š...®¯¯ûı~Eœ÷¢Ûí†aH).ä®!ù¾qs'5D„–eÉuó0y")]Ç1ß &“I½^‚ Š"Ë²da’„ùyûåçâãªçUî—ÀâÊùü¯ôÔ
+ŸÈ,ït:®ë*“héœøƒÁÀuİ¥û6jhhhluN”’}“ÈÀL¹{]î[WÎ™,²IBç,—×ğåŠN™Oõh¹]Ë²¨†¯•5ËÕsrµ²NÒ¦8kÙ•+ü|ØY“ü\JàYeR˜õ§åCıÉ#=½^¯ÛíÂê¼Ü'''4´£¡¡¡qo<L~Å·²¹¡@ò(Š†²Ó­aÇÇÇü§Ìç\6Õåe>Ëe~Ş p‡æPAn¦[Km ®›©­£té°'¾:—òL9p	ç‹T)^ºôSFÖ İn·ÕjÍf3¹õ ç·¸¾¾¶m[wFihh|–ç·]nßBñDÌWæã&IB.Œ+ë1M“½_¥ä{`×,§,Uä2_Ö/Ç3Îº!‡IÅNª›+éÊI?]%GÁ(Šx_&9V±~.I¥|¹\\JùsèRÂ' PsêúúZ~¹mAm&*444>KæDAn¸{Ãüy>û,®³Ó`ƒÂWÖmğ\Xù¾<@-Ëe+òCP-[ñÈôÔÊ}Ù‘å¸–í'	WÚ¡)X¦iò¯Å°Uúe&,¶¢d¾Éäç’í¹7†^o¡¡¡ñ°ø
+¤t¹cG>²K‚lİ fÓ=eùR¾,‘Û1kø°8N ë‘ùsšŠbq°²PDö+MvÜJkIÖÃLÒ‹£ -]d>»o–sóKHİhùçåğ¬”§üÖäÌê"á·Ùh4Ş¼y³Ù÷ ¡¡¡±ú¿b±Hµ~”Ê)£ì‘y'PzHØÍ-ío)¬á+İJòÌ"E‹á-o×ßå”Ö7(væíQ•|„Å"·¥d·ä{AÌø.ü€køKƒ:X]aÒ$4İ¥¡¡ñ!øŠşOéÖ›ä·=¸œA†ìã”j;,F”¥	Xô›K#G2E¾ô¤!ù¹dÍÊÿ*»i¹|ä§[ÿ¼yp‘*å¯Øœ· :ÎÁÁ?ˆ<‰àìì¬V«Ñ:ŒUz4444Ş‹-^lÁ+- ó’4ˆMù\a–J¥|û38Àh4:>>–å´%b­V{`±“WTĞˆ!î
+£6Š|NhYÉ5444î¯  ¹W]>Êópò].²c’ûèeWÅİ, @3‘än™çÏ'Ä²,vÍä¦ùÙ—=g=_î\âû*®:„–e)-{à¯~ó›ßÌçóíííù|^(‘I’loo'I¢È‰yssCç/_¾œÏç¦inmmíîîÎçóİİ]ù|{{{wweùóç›¦Y(^½zE
+'$ñâ…‚äóù|é9ñ×sÖó…ÂÎÎCvww!Åb‘8,çszGt„,äÓ¹†††Æ=ğ®'Š÷ã£^xÎ¦GSWåÈæ³Òy©T‚eñäûUçš¿ô<ß“ÛÜ%2Èç,Ãhj  $IDAT°z;^{ã¯~ûÛßŞÜÜ  ×F	Ôª  nU‹Å›››$I¸ş‹ˆÔ¶kÁtNõÜõçš¿ôœ…BÊYé’¢öd-‰/^°j=PK…Ş&iÓ­
+Ä»¶HÙ¹!km(ÃÚÜæàû `ŸÕ¥iÊ+*h|5/_uşœù« ó	ù±"e§)nX@6 R+Di£„a¨·ÔĞĞ¸¶ä(!Í}’»›8`!(Y)ŸŸRDlr³»·>>íy¾Êÿn®[Àb—”¼?•œÊiÕ0¾*J¥íAKjÇiµZµZmó§ÖĞĞĞ ^GP\•išqóÊç4M—³›Ë=Ï+•J´¥]¿ßo4\S¦\¾ï[–eÛvµZ¥Ÿ<Ïs‡iˆèû~µZ‚€Sp³‘Õju<O&
+cår¹^¯/Õ“$Éz=3 û)Z–5NéÌô}Ëå2"†aHj-Ë*•Jr™,Õ, ÕjÑ>²2ß0ŒñxLû0ÊkËå¶B~~”ü\ı~ŸÒÙRIöûıétJYªèAÆã±çyò`F»İ>99¡†£mÛİnw)­Óé¼yóæûï¿W>©Ñh4™L8WG³Ù¤{ñµ•JEIÖD \ëÃá6À«W¯.//iÌLCCã	ğ,…Ê}˜m/¡t€äÏWMe†!g ½T)ëj³Ù¤µä+éŞdĞ4MòÂ´bÀ0Œ½½=ÒI"âx<><<<??ït:¦iv»]ºğNzxOCÙşÁ`$Éşşşh4êõz¾ïS`Îh4j4ÅbÑó¼³³3^¤Òív}ß'Ì—õS e•w|‹EšPËa›_O\f«Â"v:ï¿ÿ¼6åzB$IÒjµÂ0ä›Z–Õëõ(áM,.—ËA ¢ã8D³,Ë4M¢Ù¶mšf”¥JFGGG´!n©T*•Jù¥A,]¢¨$ƒZ(ŠV­sÔĞĞx¼k[pxàµ´1øÒVE’$”8ˆ’IäëÑN'cŠ
+Í³j6›•J¥ÙlŸŸQWá8ùıf³©´W Û±£R©T* ÇtNšZ¶mÛ¶]¯×ã8¦ÖÌæz–¶Z­Ë-.+ÚöÜqÃ0êõºïûãP§\£Ñh4¶mW*!„ïû”’Òó	!NNNÈY×j5nÑ–‹­V«ÑhP¢Ù~¿ïû> Pß‘ëºBˆ‹‹Š[ívëõ:%,—Ë”1í§¼¶GGG$	‚€Ò@5ÚŠ®Ûí’*’7›MÏó*•
+õY1íüüœiÔØR@•}¥=!ƒGÈèÃ Dâ P¯×Çã1"îïïŸÒ«$r§Ó‰¢èÍ›7åry0èö„†ÆGAAH9ï¸’Ë;us¦‡(ŠÃ˜Íf´‹>—ûÖéÜuİ0©âŸ¦)å‹v]woo/ãÙl&»`ªìSoUEåe	·f(ğÎ¤‡ş¤µåwÒƒˆTWå¾~–+ÏÅçÃá°V«ííí¡´Êšõ;3N]×í÷û£Ñˆ‚ÊÙÙ™ëºÓé4ãÁ`@CD¼¿,¥t§V«‘Îr¹L)Ä]×-•JÔr¢¤åÓé´İn·Ûí0ƒA£ÑÇ¯_¿¦n²ğìì¬Ùl²Íççç¯_¿†Õû´? ¨S¦	,ß}÷=şx<&›g³Y†õzRğÎf3²ÿääÄ0ŒÁ`Ğï÷ëõúd2ylû544ò((uj’RƒeYK[ÜIB=Q|9uRÕëuÏó&“	UOOO÷÷÷éÜó¼½½=N{G|2ƒ»Sx%3írA­¹jOL9çR†N‡²ssGŸ“ç¢«ä}pIÁÉÉ	Š‚ú©ˆ™?R_J½^gıtdıY“$¹¸¸8??¯T*QF£$I(À„axpp Ï§¢ºs§Ó,ŒQ&óëëkï!¿ûİï(5êê÷û”®|Ÿº‰ À÷ı(Š(c9½ßF£Q©T\×=99F———òÈÁFûßÊv Ô<R@†a¥R¡iZÇÇÇaú¾O!AØ¶}~~ WWW®ëÛ¶ÍÃõOŒ·*”ŒÓÔÙ^³Ü’‹¹£åDC9&òkaR<Iêx‡TËVø @îOd{Ír{6›QMŸùÜw/²\GGGôëñññÉÉ	÷ãË­¥$IXé—õ83™LèY0K¹Ê×Êö|4Õj5sqWs²²Íş¨EF6›MjjP/
+9z!¥Ô¦Ë¦Ó)»{Y!İº›¨³‹†Ö‰F•wo ÔâBˆ^¯Ç}\ü,årÙ²¬F£1.//Ùø¥s…En zÃéÂ———Ôç–×@’ápH'Ã0¦ÓéÒIeòµrëPCCã£àÿ$/í­S½™    IEND®B`‚    1 : I g }  ¤ ª ´<><@<G<\<f                           …È
