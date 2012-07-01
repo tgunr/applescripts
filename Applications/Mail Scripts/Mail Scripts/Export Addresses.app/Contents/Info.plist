@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Export Addresses</string>
+	<key>CFBundleGetInfoHTML</key>
+	<string>Mail Scripts 2.9.1, Copyright © 2002-2009 Andreas Amann</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Mail Scripts 2.9.1
+© 2002-2009 Andreas Amann</string>
+	<key>CFBundleIconFile</key>
+	<string>MailScripts</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.aamann.MailScripts.ExportAddresses</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>Mail Scripts 2.9.1</string>
+	<key>CFBundleVersion</key>
+	<string>420</string>
+	<key>LSHasLocalizedDisplayName</key>
+	<true/>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.3.0</string>
+	<key>MailScriptsVersionCheck</key>
+	<string>2.9.1</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2002-2009 Andreas Amann</string>
+	<key>NSMainNibFile</key>
+	<string>ExportAddresses</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+</dict>
+</plist>
