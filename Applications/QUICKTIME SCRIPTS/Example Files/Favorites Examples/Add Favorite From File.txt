@@ -1,1 +1,0 @@
-tell application "QuickTime Player"	launch	activate	set this_file to choose file	try		make favorite with data this_file	end tryend tell

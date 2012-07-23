@@ -1,1 +1,0 @@
-tell application "QuickTime Player"	launch	activate	stop every movie	-- make an example text track	make new movie	set this_track to make new track at movie 1 with data "Hello World!"	-- add frame to end of text track	set this_frame to make new frame at end of this_track with data "Goodbye World!"end tell

@@ -1,1 +1,0 @@
-tell application "QuickTime Player"	launch	activate	stop every movie	make new movie	set this_track to make new track at movie 1 with data {"Topic A", "Topic B", "Topic C"}end tell
